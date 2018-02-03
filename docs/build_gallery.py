@@ -5,7 +5,8 @@ f_out = 'gallery_figures.md'
 df = pd.read_csv("source_movies.csv").sort_values("year")
 
 template = '''
-*{name}*, _{year}_
+**{name}**, _{year}_
+
 ![]({f_png})
 '''.strip()+'\n'
 
