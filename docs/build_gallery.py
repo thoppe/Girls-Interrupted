@@ -6,7 +6,7 @@ df = pd.read_csv("source_movies.csv").sort_values("year")
 
 template = '''
 *{name}*, _{year}_
-!()[{f_png}]
+![]({f_png})
 '''.strip()+'\n'
 
 S = []
