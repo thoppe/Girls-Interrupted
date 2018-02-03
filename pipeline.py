@@ -21,9 +21,9 @@ def f_queue():
 
 def process(f):
     print "Starting", f
-    #os.system("python create_frames.py '{}'".format(f))
-    #os.system("python segment_faces.py '{}'".format(f))
-    #os.system("python predict_images.py '{}'".format(f))
+    os.system("python create_frames.py '{}'".format(f))
+    os.system("python segment_faces.py '{}'".format(f))
+    os.system("python predict_images.py '{}'".format(f))
     os.system("python analyze.py '{}'".format(f))
 
 if __name__ == "__main__":
