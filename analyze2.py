@@ -18,8 +18,15 @@ args = {
     "--debug":False,
 }
 
-os.system('mkdir -p figures')
 name = os.path.basename(args["--f_movie"])
+min_screen_fraction = 0.0015
+
+os.system('mkdir -p figures')
+f_png = os.path.join('figures', name + '.png')
+
+os.system('mkdir -p data/summary')
+f_summary = os.path.join('data/summary', name + '.json')
+sdata = {}
 
 if args["--debug"]:
     args["--max_frames"]=500
@@ -41,6 +48,15 @@ for f in tqdm.tqdm(F_JSON):
     }
 
     for face in js['faces']:
+
+        if face['screen_fraction'] < min_screen_fraction:
+            item['faces_detected'] -= 1
+            #print "SKIPPING FACE", face['f_img']
+            #os.system('eog {}'.format(face['f_img']))
+            #os.system('cp {} test -v'.format(face['f_img']))
+            
+            continue
+        
         g = face["gender"]
         if g>=0.5:
             item['male'] += g - 0.5
@@ -50,8 +66,7 @@ for f in tqdm.tqdm(F_JSON):
         dx = abs(face['x0']-face['x1'])
         dy = abs(face['y0']-face['y1'])
 
-        
-        item['area'] = float(dx*dy)
+        item['screen_fraction'] = face['screen_fraction']
             
     data.append(item)
 
@@ -61,10 +76,27 @@ for f in tqdm.tqdm(F_JSON):
 
     
 df = pd.DataFrame(data).sort_values('frame_number').set_index('frame_number')
-print df[df.female>0]
-#print df.male.mean()
-#print df.female.mean()
-#exit()
+
+
+sdata["total_frames"] = len(df)
+sdata["total_frames_with_faces"] = (df.faces_detected>0).sum()
+
+sdata["total_frames_with_male_faces"] = (df.male>0).sum()
+sdata["total_frames_with_female_faces"] = (df.female>0).sum()
+
+sdata["avg_frames_with_faces"] = (df.faces_detected>0).mean()
+sdata["avg_frames_with_male_faces"] = (df.male>0).mean()
+sdata["avg_frames_with_female_faces"] = (df.female>0).mean()
+
+dfx = df[df.faces_detected>0]
+sdata["fraction_female_face_screentime"] = ((dfx.female>0)&(dfx.male==0)).mean()
+sdata["fraction_male_face_screentime"]   = ((dfx.female==0)&(dfx.male>0)).mean()
+sdata["fraction_mixed_face_screentime"]  = ((dfx.female>0)&(dfx.male>0)).mean()
+with open(f_summary, 'w') as FOUT:
+    js = json.dumps(sdata, indent=2)
+    FOUT.write(js)
+    print js
+
 
 X = np.zeros(shape=(2,len(df)),dtype=int)
 X[0,:] = (df.female>0)
@@ -90,7 +122,6 @@ plt.yticks([.5,1.5], [u'♀',u'♂'],
 plt.xticks([],[])
 
 if not args["--debug"]:
-    f_png = os.path.join('figures', name + '.png')
     plt.savefig(f_png,bbox_inches='tight', dpi=100)
     print "Completed", f_png
 #else:

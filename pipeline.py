@@ -39,7 +39,6 @@ def func_analyze(f):
     os.system("python analyze2.py '{}'".format(f))
 
 if __name__ == "__main__":
-
     
     func = joblib.delayed(func_frames)
     with joblib.Parallel(4) as MP:
