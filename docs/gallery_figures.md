@@ -36,7 +36,7 @@
 
 **Goodfellas**, _1990_
 
-![](../figures/Goodfellas 1990 720p BRRip AC3 x264-MacGuffin.mkv.png)
+![](../figures/Goodfellas%201990%20720p%20BRRip%20AC3%20x264-MacGuffin.mkv.png)
 
 **Pretty Woman**, _1990_
 
@@ -84,7 +84,7 @@
 
 **Darjeeling Limited**, _2007_
 
-![](../figures/Darjeeling Limited.mkv.png)
+![](../figures/Darjeeling%20Limited.mkv.png)
 
 **Pitch Perfect**, _2012_
 
@@ -92,7 +92,7 @@
 
 **Grand Budapest Hotel**, _2014_
 
-![](../figures/Grand Budapest Hotel.mkv.png)
+![](../figures/Grand%20Budapest%20Hotel.mkv.png)
 
 **The Danish Girl**, _2015_
 

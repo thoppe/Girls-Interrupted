@@ -20,7 +20,11 @@ for _,row in df.iterrows():
 
     print f_png
 
-    s = template.format(name=row['name'], year=row.year, f_png=f_png)
+    s = template.format(
+        name=row['name'],
+        year=row.year,
+        f_png=f_png.replace(' ', '%20'),
+    )
     S.append(s)
 
 with open(f_out, 'w') as FOUT:
