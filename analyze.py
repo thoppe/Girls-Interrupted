@@ -14,7 +14,7 @@ cmap = [
 args = {
     "--f_movie":sys.argv[1],
     "--max_frames":None,
-    "--debug":True,
+    "--debug":False,
 }
 
 os.system('mkdir -p figures')
@@ -89,7 +89,9 @@ if not args["--debug"]:
     f_png = os.path.join('figures', name + '.png')
     plt.savefig(f_png,bbox_inches='tight',pad_inches=0)
     print "Completed", f_png
-else:
-    plt.show()
+#else:
+
+
+plt.show()
 
 

@@ -18,6 +18,10 @@
 
 ![](../figures/First.Blood.1982.DVDRip.x264-DJ.mkv.png)
 
+**Blade Runner**, _1982_
+
+![](../figures/Blade.Runner.1982.The.Final.Cut.720p.iNTERNAL.BluRay.x264-MOOVEE.mkv.png)
+
 **Predator**, _1987_
 
 ![](../figures/Predator.1987.DVDRip.x264-DJ.mkv.png)
@@ -42,6 +46,10 @@
 
 ![](../figures/Pretty.Woman.1990.Bluray.720p.H264.mp4.png)
 
+**Dances with Wolves**, _1990_
+
+![](../figures/Dances.with.Wolves.DC.1990.720p.BluRay.x264.YIFY.mp4.png)
+
 **La Femme Nikita**, _1990_
 
 ![](../figures/La.Femme.Nikita.1990.BluRay.720p.H264.Dual.Audio.mp4.png)
@@ -62,6 +70,14 @@
 
 ![](../figures/Bring.It.On.2000.HDTV.720p.H264.mp4.png)
 
+**Cast Away**, _2000_
+
+![](../figures/Cast.Away.2000.BDRip.x264-DJ.mkv.png)
+
+**The Lord of the Rings The Fellowship of the Ring**, _2001_
+
+![](../figures/The.Lord.of.the.Rings.The.Fellowship.of.the.Ring.2001.BDRip.x264-DJ.mkv.png)
+
 **The Princess Diaries**, _2001_
 
 ![](../figures/The.Princess.Diaries.2001.BluRay.720p.H264.mp4.png)
@@ -74,6 +90,10 @@
 
 ![](../figures/The.Royal.Tenenbaums.2001.HDTV.720p.H264.mp4.png)
 
+**28 Days Later**, _2002_
+
+![](../figures/28.Days.Later.2002.BDRip.x264-DJ.mkv.png)
+
 **Girl with a Pearl Earring**, _2003_
 
 ![](../figures/Girl.with.a.Pearl.Earring.2003.BluRay.720p.H264.mp4.png)
@@ -81,6 +101,10 @@
 **Kill Bill Vol 2**, _2004_
 
 ![](../figures/Kill.Bill.Vol.2.2004.iNTERNAL.720p.BluRay.x264-LiBRARiANS.mkv.png)
+
+**Into The Wild**, _2007_
+
+![](../figures/Into.The.Wild.2007.BluRay.720p.H264.mp4.png)
 
 **Darjeeling Limited**, _2007_
 
@@ -97,3 +121,7 @@
 **The Danish Girl**, _2015_
 
 ![](../figures/The.Danish.Girl.2015.HDRip.XviD.AC3-EVO.avi.png)
+
+**Mad Max Fury Road**, _2015_
+
+![](../figures/Mad.Max.Fury.Road.2015.BluRay.720p.H264.mp4.png)

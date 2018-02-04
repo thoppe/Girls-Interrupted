@@ -3,12 +3,14 @@ Looks for any file in raw_videos/* and runs it through
 the standard pipeline:
 
 [create_frames]-[segment_faces]-[predict_images]-[analyze]
+
+# Set the path: export PYTHONPATH=~/src/facenet/src/
 '''
 import glob, os, joblib
 
 def f_queue():
 
-    F_MOVIE = glob.glob("raw_videos/*")
+    F_MOVIE = glob.glob("raw_videos/*")[::-1]
 
     for f in F_MOVIE:
         name = os.path.basename(f)
@@ -19,15 +21,35 @@ def f_queue():
 
         yield f
 
-def process(f):
+
+
+def func_frames(f):
     print "Starting", f
-    os.system("python create_frames.py '{}'".format(f))
-    #os.system("python segment_faces.py '{}'".format(f))
-    #os.system("python predict_images.py '{}'".format(f))
-    #os.system("python analyze.py '{}'".format(f))
+    #os.system("python create_frames.py '{}'".format(f))
+
+def func_segment(f):
+    os.system("python facenet_segment.py '{}'".format(f))
+
+def func_predict(f):
+    os.system("python predict_images2.py '{}'".format(f))
+
+def func_analyze(f):
+    os.system("python analyze2.py '{}'".format(f))
 
 if __name__ == "__main__":
-    func = joblib.delayed(process)
-    with joblib.Parallel(1) as MP:
+
+    '''
+    func = joblib.delayed(func_frames)
+    with joblib.Parallel(2) as MP:
         MP(func(x) for x in f_queue())
 
+    func = joblib.delayed(func_segment)
+    with joblib.Parallel(4) as MP:
+        MP(func(x) for x in f_queue())
+
+    map(func_predict, f_queue())
+    '''
+
+    func = joblib.delayed(func_analyze)
+    with joblib.Parallel(4) as MP:
+        MP(func(x) for x in f_queue())
