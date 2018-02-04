@@ -22,7 +22,7 @@ if os.path.exists(first_frame):
     exit(0)
 
 
-cmd = 'avconv -y -r {--fps} -an -q:v {--qscale} "{save_dest}/%06d{--extension}" -i "{--f_movie}"'
+cmd = 'avconv -threads auto -y -r {--fps} -an -q:v {--qscale} "{save_dest}/%06d{--extension}" -i "{--f_movie}"'
 cmd = cmd.format(**args)
 os.system(cmd)
 

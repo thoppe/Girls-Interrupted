@@ -7,10 +7,12 @@ the standard pipeline:
 # Set the path: export PYTHONPATH=~/src/facenet/src/
 '''
 import glob, os, joblib
+import random
 
 def f_queue():
 
     F_MOVIE = glob.glob("raw_videos/*")[::-1]
+    random.shuffle(F_MOVIE)
 
     for f in F_MOVIE:
         name = os.path.basename(f)
@@ -25,7 +27,7 @@ def f_queue():
 
 def func_frames(f):
     print "Starting", f
-    #os.system("python create_frames.py '{}'".format(f))
+    os.system("python create_frames.py '{}'".format(f))
 
 def func_segment(f):
     os.system("python facenet_segment.py '{}'".format(f))
@@ -38,9 +40,9 @@ def func_analyze(f):
 
 if __name__ == "__main__":
 
-    '''
+    
     func = joblib.delayed(func_frames)
-    with joblib.Parallel(2) as MP:
+    with joblib.Parallel(4) as MP:
         MP(func(x) for x in f_queue())
 
     func = joblib.delayed(func_segment)
@@ -48,7 +50,7 @@ if __name__ == "__main__":
         MP(func(x) for x in f_queue())
 
     map(func_predict, f_queue())
-    '''
+    
 
     func = joblib.delayed(func_analyze)
     with joblib.Parallel(4) as MP:

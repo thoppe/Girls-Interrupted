@@ -72,7 +72,7 @@ def process_image(f_img, skip_if_exists=True):
     img_area = img.shape[0]*img.shape[1]
     
     #   run detect_face from the facenet library
-    bounding_boxes, _ = align.detect_face.detect_face(
+    bounding_boxes, _ = align.detect_face(
             img, minsize, pnet,
             rnet, onet, threshold, factor)
 
@@ -126,7 +126,7 @@ print "Starting", image_dir, len(IMAGES)
 ######################################################################
 
 # Facenet import
-import align.detect_face
+import src.facenet.align.detect_face as align
 
 from imutils.face_utils import FaceAligner
 import cv2
@@ -150,7 +150,7 @@ with tf.Graph().as_default():
     sess = tf.Session(config=config)
 
     with sess.as_default():
-        pnet, rnet, onet = align.detect_face.create_mtcnn(sess, None)
+        pnet, rnet, onet = align.create_mtcnn(sess, None)
 
 
     for f_img in tqdm(IMAGES):
