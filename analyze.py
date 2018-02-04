@@ -13,14 +13,15 @@ cmap = [
 
 args = {
     "--f_movie":sys.argv[1],
-    #"--max_frames":500,
     "--max_frames":None,
-    
+    "--debug":True,
 }
 
 os.system('mkdir -p figures')
-
 name = os.path.basename(args["--f_movie"])
+
+if args["--debug"]:
+    args["--max_frames"]=500
 
 F_JSON = sorted(glob.glob(os.path.join(
     "data","json",name,"*.json")))
@@ -84,9 +85,11 @@ plt.yticks([.5,1.5], [u'♀',u'♂'],
            rotation='horizontal')
 plt.xticks([],[])
 
-f_png = os.path.join('figures', name + '.png')
-plt.savefig(f_png,bbox_inches='tight',pad_inches=0)
+if not args["--debug"]:
+    f_png = os.path.join('figures', name + '.png')
+    plt.savefig(f_png,bbox_inches='tight',pad_inches=0)
+    print "Completed", f_png
+else:
+    plt.show()
 
-print "Completed", f_png
-#plt.show()
 

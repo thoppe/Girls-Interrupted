@@ -10,6 +10,10 @@
 
 ![](../figures/2001.A.Space.Odyssey.1968.DVDRip.x264-DJ.mkv.png)
 
+**Taxi Driver**, _1976_
+
+![](../figures/Taxi.Driver.1976.REMASTERED.BluRay.720p.H264.mp4.png)
+
 **First Blood**, _1982_
 
 ![](../figures/First.Blood.1982.DVDRip.x264-DJ.mkv.png)

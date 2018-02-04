@@ -18,6 +18,8 @@ for _,row in df.iterrows():
     if not os.path.exists(f_png):
         continue
 
+    print f_png
+
     s = template.format(name=row['name'], year=row.year, f_png=f_png)
     S.append(s)
 
