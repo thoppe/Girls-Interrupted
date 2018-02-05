@@ -5,6 +5,9 @@ import pandas as pd
 import seaborn as sns
 import pylab as plt
 
+min_screen_fraction = 0.0015
+min_score = 0.90
+
 cmap = [
     np.array([1,]*4)*0.98,
     np.array([255,44,77,255])/255.,
@@ -19,7 +22,6 @@ args = {
 }
 
 name = os.path.basename(args["--f_movie"])
-min_screen_fraction = 0.0015
 
 os.system('mkdir -p figures')
 f_png = os.path.join('figures', name + '.png')
@@ -50,12 +52,20 @@ for f in tqdm.tqdm(F_JSON):
 
     for face in js['faces']:
 
+        # If the face is too small, reject it completely
         if face['screen_fraction'] < min_screen_fraction:
             item['faces_detected'] -= 1
-            #print "SKIPPING FACE", face['f_img']
-            #os.system('eog {}'.format(face['f_img']))
-            #os.system('cp {} test -v'.format(face['f_img']))
-            
+            continue
+
+        # We the detector isn't sure of the face, reject it completely
+        if face['score'] < min_score:
+            item['faces_detected'] -= 1
+            continue
+
+        item['screen_fraction'] += face['screen_fraction']
+
+        # Don't count gender if ambigous
+        if face['gender']>0.35 and face['gender']<0.65:
             continue
         
         g = face["gender"]
@@ -64,9 +74,6 @@ for f in tqdm.tqdm(F_JSON):
         elif g<0.5:
             item['female'] += 0.5 - g
 
-        dx = abs(face['x0']-face['x1'])
-        dy = abs(face['y0']-face['y1'])
-        item['screen_fraction'] += face['screen_fraction']
             
     data.append(item)
 

@@ -9,6 +9,11 @@ the standard pipeline:
 import glob, os, joblib
 import random
 
+args = {
+    "--force" : True,
+}
+
+
 def f_queue():
 
     F_MOVIE = glob.glob("raw_videos/*")[::-1]
@@ -18,7 +23,7 @@ def f_queue():
         name = os.path.basename(f)
         f_png = os.path.join("figures", name+'.png')
 
-        if os.path.exists(f_png):
+        if os.path.exists(f_png) and not args['--force']:
             continue
 
         yield f
@@ -40,7 +45,7 @@ def func_analyze(f):
 
 if __name__ == "__main__":
 
-    
+    '''
     func = joblib.delayed(func_frames)
     with joblib.Parallel(4) as MP:
         MP(func(x) for x in f_queue())
@@ -50,6 +55,7 @@ if __name__ == "__main__":
         MP(func(x) for x in f_queue())
 
     map(func_predict, f_queue())
+    '''
     
     func = joblib.delayed(func_analyze)
     with joblib.Parallel(-1) as MP:
