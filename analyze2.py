@@ -45,6 +45,7 @@ for f in tqdm.tqdm(F_JSON):
         "faces_detected":js["faces_detected"],
         "male":0.0,
         "female":0.0,
+        "screen_fraction":0.0,
     }
 
     for face in js['faces']:
@@ -65,8 +66,7 @@ for f in tqdm.tqdm(F_JSON):
 
         dx = abs(face['x0']-face['x1'])
         dy = abs(face['y0']-face['y1'])
-
-        item['screen_fraction'] = face['screen_fraction']
+        item['screen_fraction'] += face['screen_fraction']
             
     data.append(item)
 
@@ -77,12 +77,16 @@ for f in tqdm.tqdm(F_JSON):
     
 df = pd.DataFrame(data).sort_values('frame_number').set_index('frame_number')
 
-
+sdata["f_movie"] = args["--f_movie"]
 sdata["total_frames"] = len(df)
 sdata["total_frames_with_faces"] = (df.faces_detected>0).sum()
 
 sdata["total_frames_with_male_faces"] = (df.male>0).sum()
 sdata["total_frames_with_female_faces"] = (df.female>0).sum()
+sdata["avg_face_screen_fraction"] = df['screen_fraction'].sum()/len(df)
+
+
+item['screen_fraction'] = face['screen_fraction']
 
 sdata["avg_frames_with_faces"] = (df.faces_detected>0).mean()
 sdata["avg_frames_with_male_faces"] = (df.male>0).mean()
@@ -92,11 +96,11 @@ dfx = df[df.faces_detected>0]
 sdata["fraction_female_face_screentime"] = ((dfx.female>0)&(dfx.male==0)).mean()
 sdata["fraction_male_face_screentime"]   = ((dfx.female==0)&(dfx.male>0)).mean()
 sdata["fraction_mixed_face_screentime"]  = ((dfx.female>0)&(dfx.male>0)).mean()
+
 with open(f_summary, 'w') as FOUT:
     js = json.dumps(sdata, indent=2)
     FOUT.write(js)
     print js
-
 
 X = np.zeros(shape=(2,len(df)),dtype=int)
 X[0,:] = (df.female>0)
