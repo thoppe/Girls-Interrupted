@@ -13,7 +13,7 @@
 
 ![](figures/12.Angry.Men.1957.DVDRip.x264-DJ.mkv.png)
 
-[All Figures](docs/gallery_figures.md)
+# [All Figures](docs/gallery_figures.md)
 
 ![](docs/ratio_plot.png)
 
