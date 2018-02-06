@@ -47,11 +47,11 @@ if __name__ == "__main__":
 
     
     func = joblib.delayed(func_frames)
-    with joblib.Parallel(4) as MP:
+    with joblib.Parallel(4,batch_size=1) as MP:
         MP(func(x) for x in f_queue())
 
     func = joblib.delayed(func_segment)
-    with joblib.Parallel(4) as MP:
+    with joblib.Parallel(4,batch_size=1) as MP:
         MP(func(x) for x in f_queue())
 
     map(func_predict, f_queue())
