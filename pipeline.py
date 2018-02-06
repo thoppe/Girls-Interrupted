@@ -10,7 +10,7 @@ import glob, os, joblib
 import random
 
 args = {
-    "--force" : True,
+    "--force" : False,
 }
 
 
@@ -45,7 +45,7 @@ def func_analyze(f):
 
 if __name__ == "__main__":
 
-    '''
+    
     func = joblib.delayed(func_frames)
     with joblib.Parallel(4) as MP:
         MP(func(x) for x in f_queue())
@@ -55,7 +55,7 @@ if __name__ == "__main__":
         MP(func(x) for x in f_queue())
 
     map(func_predict, f_queue())
-    '''
+    
     
     func = joblib.delayed(func_analyze)
     with joblib.Parallel(-1) as MP:

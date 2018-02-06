@@ -12,14 +12,20 @@ dfx = pd.read_csv("docs/source_movies.csv").set_index('source')
 df['f_movie'] = df['f_movie'].apply(os.path.basename)
 df = df.set_index('f_movie')
 df['name'] = dfx['name']
-#df = df.set_index('name')
 
 def func(x):
+    if type(x)==float: return x
     if len(x)>18: x=x[:15]+'...'
     return x
 
 df['name'] = df['name'].apply(func)
+
+idx = pd.isnull(df.name)
+df.ix[idx, 'name'] = df.index[idx]
+
 df = df.set_index('name')
+
+
 
 
 xkey = 'fraction_female_or_mixed_screentime'
