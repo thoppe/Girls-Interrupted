@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0024174053182917004, 
+  "total_frames_with_faces": 4964, 
+  "avg_frames_with_female_faces": 0.0043237634036665511, 
+  "avg_face_screen_fraction": 0.068573998496179261, 
+  "avg_frames_with_faces": 0.85852646143203049, 
+  "fraction_male_face_screentime": 0.92969379532634977, 
+  "f_movie": "raw_videos/12.Angry.Men.1957.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 4627, 
+  "fraction_female_face_screentime": 0.0026188557614826753, 
+  "total_frames": 5782, 
+  "total_frames_with_female_faces": 25, 
+  "avg_frames_with_male_faces": 0.80024213075060535
+}

@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.039476418034489924, 
+  "total_frames_with_faces": 4813, 
+  "avg_frames_with_female_faces": 0.12686809616634179, 
+  "avg_face_screen_fraction": 0.057786892360891157, 
+  "avg_frames_with_faces": 0.78183885640025996, 
+  "fraction_male_face_screentime": 0.6632038229794307, 
+  "f_movie": "raw_videos/Casablanca.1942.BDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 3382, 
+  "fraction_female_face_screentime": 0.12279243714938708, 
+  "total_frames": 6156, 
+  "total_frames_with_female_faces": 781, 
+  "avg_frames_with_male_faces": 0.54938271604938271
+}

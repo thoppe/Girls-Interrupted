@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.024078254326561323, 
+  "total_frames_with_faces": 2658, 
+  "avg_frames_with_female_faces": 0.063680075055705401, 
+  "avg_face_screen_fraction": 0.02728347358140119, 
+  "avg_frames_with_faces": 0.31171572651577345, 
+  "fraction_male_face_screentime": 0.63506395786305492, 
+  "f_movie": "raw_videos/Inception.2010.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 1752, 
+  "fraction_female_face_screentime": 0.18021068472535742, 
+  "total_frames": 8527, 
+  "total_frames_with_female_faces": 543, 
+  "avg_frames_with_male_faces": 0.2054649935499003
+}

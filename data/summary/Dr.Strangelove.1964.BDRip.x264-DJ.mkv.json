@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.00098392915710068872, 
+  "total_frames_with_faces": 3049, 
+  "avg_frames_with_female_faces": 0.0096711798839458421, 
+  "avg_face_screen_fraction": 0.033581609924149644, 
+  "avg_frames_with_faces": 0.53613504483910679, 
+  "fraction_male_face_screentime": 0.89307969826172517, 
+  "f_movie": "raw_videos/Dr.Strangelove.1964.BDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 2726, 
+  "fraction_female_face_screentime": 0.017054772056411937, 
+  "total_frames": 5687, 
+  "total_frames_with_female_faces": 55, 
+  "avg_frames_with_male_faces": 0.47933884297520662
+}

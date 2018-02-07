@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0070721357850070717, 
+  "total_frames_with_faces": 1414, 
+  "avg_frames_with_female_faces": 0.013443040908564144, 
+  "avg_face_screen_fraction": 0.01029793796187993, 
+  "avg_frames_with_faces": 0.16386603314404913, 
+  "fraction_male_face_screentime": 0.73691654879773694, 
+  "f_movie": "raw_videos/Cast.Away.2000.BDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 1052, 
+  "fraction_female_face_screentime": 0.074964639321074958, 
+  "total_frames": 8629, 
+  "total_frames_with_female_faces": 116, 
+  "avg_frames_with_male_faces": 0.12191447444663345
+}

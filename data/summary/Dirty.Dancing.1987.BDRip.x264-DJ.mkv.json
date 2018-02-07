@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.050456893126738178, 
+  "total_frames_with_faces": 2517, 
+  "avg_frames_with_female_faces": 0.14107883817427386, 
+  "avg_face_screen_fraction": 0.020282461231289881, 
+  "avg_frames_with_faces": 0.41775933609958504, 
+  "fraction_male_face_screentime": 0.33293603496225666, 
+  "f_movie": "raw_videos/Dirty.Dancing.1987.BDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 965, 
+  "fraction_female_face_screentime": 0.28724672228843862, 
+  "total_frames": 6025, 
+  "total_frames_with_female_faces": 850, 
+  "avg_frames_with_male_faces": 0.16016597510373445
+}

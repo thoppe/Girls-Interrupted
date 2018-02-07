@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.047619047619047616, 
+  "total_frames_with_faces": 4725, 
+  "avg_frames_with_female_faces": 0.42642270119398357, 
+  "avg_face_screen_fraction": 0.039294233005193656, 
+  "avg_frames_with_faces": 0.73267173205148084, 
+  "fraction_male_face_screentime": 0.18179894179894179, 
+  "f_movie": "raw_videos/Pitch.Perfect.2012.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1084, 
+  "fraction_female_face_screentime": 0.53439153439153442, 
+  "total_frames": 6449, 
+  "total_frames_with_female_faces": 2750, 
+  "avg_frames_with_male_faces": 0.16808807567064663
+}

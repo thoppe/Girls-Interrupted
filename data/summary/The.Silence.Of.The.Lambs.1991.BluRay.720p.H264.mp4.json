@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.034664905909541105, 
+  "total_frames_with_faces": 3029, 
+  "avg_frames_with_female_faces": 0.20511739069309715, 
+  "avg_face_screen_fraction": 0.064829680236747289, 
+  "avg_frames_with_faces": 0.42584001124701254, 
+  "fraction_male_face_screentime": 0.35655331792670847, 
+  "f_movie": "raw_videos/The.Silence.Of.The.Lambs.1991.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1185, 
+  "fraction_female_face_screentime": 0.44701221525255858, 
+  "total_frames": 7113, 
+  "total_frames_with_female_faces": 1459, 
+  "avg_frames_with_male_faces": 0.16659637283846479
+}

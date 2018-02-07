@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.058852378616969105, 
+  "total_frames_with_faces": 4078, 
+  "avg_frames_with_female_faces": 0.37427107262767273, 
+  "avg_face_screen_fraction": 0.043493487812196835, 
+  "avg_frames_with_faces": 0.72062201802438597, 
+  "fraction_male_face_screentime": 0.19151544874938695, 
+  "f_movie": "raw_videos/Clueless.1995.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1021, 
+  "fraction_female_face_screentime": 0.46051986267778322, 
+  "total_frames": 5659, 
+  "total_frames_with_female_faces": 2118, 
+  "avg_frames_with_male_faces": 0.18042056900512457
+}

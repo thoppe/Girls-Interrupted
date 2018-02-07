@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0071664829106945979, 
+  "total_frames_with_faces": 1814, 
+  "avg_frames_with_female_faces": 0.09577538703752296, 
+  "avg_face_screen_fraction": 0.017356535091237739, 
+  "avg_frames_with_faces": 0.23799527683022828, 
+  "fraction_male_face_screentime": 0.29327453142227122, 
+  "f_movie": "raw_videos/Thelma.and.Louise.1991.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 545, 
+  "fraction_female_face_screentime": 0.39525909592061742, 
+  "total_frames": 7622, 
+  "total_frames_with_female_faces": 730, 
+  "avg_frames_with_male_faces": 0.071503542377328783
+}

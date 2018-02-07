@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.00088652482269503544, 
+  "total_frames_with_faces": 1128, 
+  "avg_frames_with_female_faces": 0.00055970149253731347, 
+  "avg_face_screen_fraction": 0.011806514639035736, 
+  "avg_frames_with_faces": 0.21044776119402986, 
+  "fraction_male_face_screentime": 0.8457446808510638, 
+  "f_movie": "raw_videos/First.Blood.1982.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 955, 
+  "fraction_female_face_screentime": 0.0017730496453900709, 
+  "total_frames": 5360, 
+  "total_frames_with_female_faces": 3, 
+  "avg_frames_with_male_faces": 0.17817164179104478
+}

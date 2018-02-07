@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.039347194276771739, 
+  "total_frames_with_faces": 4473, 
+  "avg_frames_with_female_faces": 0.12256706996317727, 
+  "avg_face_screen_fraction": 0.034383693202443499, 
+  "avg_frames_with_faces": 0.39216201998947925, 
+  "fraction_male_face_screentime": 0.42454728370221329, 
+  "f_movie": "raw_videos/Titanic.1997.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 2075, 
+  "fraction_female_face_screentime": 0.27319472389894928, 
+  "total_frames": 11406, 
+  "total_frames_with_female_faces": 1398, 
+  "avg_frames_with_male_faces": 0.18192179554620375
+}

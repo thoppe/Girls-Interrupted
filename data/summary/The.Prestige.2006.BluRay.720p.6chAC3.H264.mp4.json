@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0064436943847806074, 
+  "total_frames_with_faces": 3259, 
+  "avg_frames_with_female_faces": 0.063057157839538538, 
+  "avg_face_screen_fraction": 0.035274231721793663, 
+  "avg_frames_with_faces": 0.42724174095437861, 
+  "fraction_male_face_screentime": 0.70696532678735813, 
+  "f_movie": "raw_videos/The.Prestige.2006.BluRay.720p.6chAC3.H264.mp4", 
+  "total_frames_with_male_faces": 2325, 
+  "fraction_female_face_screentime": 0.14114759128567045, 
+  "total_frames": 7628, 
+  "total_frames_with_female_faces": 481, 
+  "avg_frames_with_male_faces": 0.30479811221814368
+}

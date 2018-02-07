@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.014405762304921969, 
+  "total_frames_with_faces": 833, 
+  "avg_frames_with_female_faces": 0.011341876565031668, 
+  "avg_face_screen_fraction": 0.0081328712041007518, 
+  "avg_frames_with_faces": 0.12269848283988806, 
+  "fraction_male_face_screentime": 0.56782713085234093, 
+  "f_movie": "raw_videos/28.Days.Later.2002.BDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 485, 
+  "fraction_female_face_screentime": 0.078031212484993992, 
+  "total_frames": 6789, 
+  "total_frames_with_female_faces": 77, 
+  "avg_frames_with_male_faces": 0.071439092649874802
+}

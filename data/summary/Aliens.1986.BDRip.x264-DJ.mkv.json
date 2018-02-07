@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.014043783560512184, 
+  "total_frames_with_faces": 2421, 
+  "avg_frames_with_female_faces": 0.061063760923508466, 
+  "avg_face_screen_fraction": 0.031950621324773769, 
+  "avg_frames_with_faces": 0.2611932247275866, 
+  "fraction_male_face_screentime": 0.46303180503923996, 
+  "f_movie": "raw_videos/Aliens.1986.BDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 1155, 
+  "fraction_female_face_screentime": 0.21974390747624947, 
+  "total_frames": 9269, 
+  "total_frames_with_female_faces": 566, 
+  "avg_frames_with_male_faces": 0.12460891142518071
+}

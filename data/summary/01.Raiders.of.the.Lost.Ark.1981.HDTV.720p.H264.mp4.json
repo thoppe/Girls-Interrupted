@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.023031203566121844, 
+  "total_frames_with_faces": 1346, 
+  "avg_frames_with_female_faces": 0.019143968871595331, 
+  "avg_face_screen_fraction": 0.0086969636304691199, 
+  "avg_frames_with_faces": 0.20949416342412452, 
+  "fraction_male_face_screentime": 0.69910846953937589, 
+  "f_movie": "raw_videos/01.Raiders.of.the.Lost.Ark.1981.HDTV.720p.H264.mp4", 
+  "total_frames_with_male_faces": 972, 
+  "fraction_female_face_screentime": 0.068350668647845461, 
+  "total_frames": 6425, 
+  "total_frames_with_female_faces": 123, 
+  "avg_frames_with_male_faces": 0.151284046692607
+}

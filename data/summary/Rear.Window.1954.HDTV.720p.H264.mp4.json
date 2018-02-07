@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.10122699386503067, 
+  "total_frames_with_faces": 3260, 
+  "avg_frames_with_female_faces": 0.14438581061272354, 
+  "avg_face_screen_fraction": 0.018845588942894835, 
+  "avg_frames_with_faces": 0.47786572852535913, 
+  "fraction_male_face_screentime": 0.48588957055214727, 
+  "f_movie": "raw_videos/Rear.Window.1954.HDTV.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1914, 
+  "fraction_female_face_screentime": 0.20092024539877301, 
+  "total_frames": 6822, 
+  "total_frames_with_female_faces": 985, 
+  "avg_frames_with_male_faces": 0.28056288478452068
+}

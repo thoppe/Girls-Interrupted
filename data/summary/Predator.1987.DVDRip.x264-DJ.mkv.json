@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0021344717182497333, 
+  "total_frames_with_faces": 937, 
+  "avg_frames_with_female_faces": 0.0083129584352078234, 
+  "avg_face_screen_fraction": 0.015857189768294196, 
+  "avg_frames_with_faces": 0.15273023634881824, 
+  "fraction_male_face_screentime": 0.80362860192102459, 
+  "f_movie": "raw_videos/Predator.1987.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 755, 
+  "fraction_female_face_screentime": 0.052294557097118465, 
+  "total_frames": 6135, 
+  "total_frames_with_female_faces": 51, 
+  "avg_frames_with_male_faces": 0.12306438467807661
+}

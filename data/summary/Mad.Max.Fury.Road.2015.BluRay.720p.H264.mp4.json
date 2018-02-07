@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.05106382978723404, 
+  "total_frames_with_faces": 940, 
+  "avg_frames_with_female_faces": 0.043321799307958479, 
+  "avg_face_screen_fraction": 0.0073674131817298462, 
+  "avg_frames_with_faces": 0.1301038062283737, 
+  "fraction_male_face_screentime": 0.39680851063829786, 
+  "f_movie": "raw_videos/Mad.Max.Fury.Road.2015.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 421, 
+  "fraction_female_face_screentime": 0.28191489361702127, 
+  "total_frames": 7225, 
+  "total_frames_with_female_faces": 313, 
+  "avg_frames_with_male_faces": 0.058269896193771625
+}

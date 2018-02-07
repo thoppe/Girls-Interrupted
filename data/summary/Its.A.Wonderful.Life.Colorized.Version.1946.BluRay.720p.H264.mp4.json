@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.061799038681620511, 
+  "total_frames_with_faces": 4369, 
+  "avg_frames_with_female_faces": 0.11368555060471038, 
+  "avg_face_screen_fraction": 0.024271465159652034, 
+  "avg_frames_with_faces": 0.55620623806492675, 
+  "fraction_male_face_screentime": 0.57564660105287246, 
+  "f_movie": "raw_videos/Its.A.Wonderful.Life.Colorized.Version.1946.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 2785, 
+  "fraction_female_face_screentime": 0.14259555962462805, 
+  "total_frames": 7855, 
+  "total_frames_with_female_faces": 893, 
+  "avg_frames_with_male_faces": 0.354551241247613
+}

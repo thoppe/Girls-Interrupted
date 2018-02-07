@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.011002444987775062, 
+  "total_frames_with_faces": 4090, 
+  "avg_frames_with_female_faces": 0.022535211267605635, 
+  "avg_face_screen_fraction": 0.019466254900944162, 
+  "avg_frames_with_faces": 0.28802816901408451, 
+  "fraction_male_face_screentime": 0.74718826405867966, 
+  "f_movie": "raw_videos/Dances.with.Wolves.DC.1990.720p.BluRay.x264.YIFY.mp4", 
+  "total_frames_with_male_faces": 3101, 
+  "fraction_female_face_screentime": 0.067237163814180934, 
+  "total_frames": 14200, 
+  "total_frames_with_female_faces": 320, 
+  "avg_frames_with_male_faces": 0.21838028169014084
+}

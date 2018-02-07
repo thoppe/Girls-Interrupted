@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0031758634378721714, 
+  "total_frames_with_faces": 2519, 
+  "avg_frames_with_female_faces": 0.061743526888310099, 
+  "avg_face_screen_fraction": 0.065760088984032808, 
+  "avg_frames_with_faces": 0.38593534548797304, 
+  "fraction_male_face_screentime": 0.70782056371576019, 
+  "f_movie": "raw_videos/Memento.2000.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 1791, 
+  "fraction_female_face_screentime": 0.15680825724493846, 
+  "total_frames": 6527, 
+  "total_frames_with_female_faces": 403, 
+  "avg_frames_with_male_faces": 0.27439865175425154
+}

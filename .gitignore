@@ -2,4 +2,6 @@
 *~
 
 raw_videos/
-data/
+data/frames/
+data/facenet_faces/
+data/facenet_json/

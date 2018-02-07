@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0053536207382361232, 
+  "total_frames_with_faces": 3549, 
+  "avg_frames_with_female_faces": 0.0072255765614174005, 
+  "avg_face_screen_fraction": 0.021373732750516471, 
+  "avg_frames_with_faces": 0.35128179748589528, 
+  "fraction_male_face_screentime": 0.83854606931530007, 
+  "f_movie": "raw_videos/Saving.Private.Ryan.1998.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 2995, 
+  "fraction_female_face_screentime": 0.015215553677092139, 
+  "total_frames": 10103, 
+  "total_frames_with_female_faces": 73, 
+  "avg_frames_with_male_faces": 0.29644660001979611
+}

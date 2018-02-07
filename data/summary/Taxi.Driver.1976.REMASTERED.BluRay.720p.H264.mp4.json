@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.036420863309352521, 
+  "total_frames_with_faces": 2224, 
+  "avg_frames_with_female_faces": 0.077452415812591505, 
+  "avg_face_screen_fraction": 0.018722265157655175, 
+  "avg_frames_with_faces": 0.32562225475841872, 
+  "fraction_male_face_screentime": 0.58048561151079137, 
+  "f_movie": "raw_videos/Taxi.Driver.1976.REMASTERED.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1372, 
+  "fraction_female_face_screentime": 0.20143884892086331, 
+  "total_frames": 6830, 
+  "total_frames_with_female_faces": 529, 
+  "avg_frames_with_male_faces": 0.20087847730600292
+}

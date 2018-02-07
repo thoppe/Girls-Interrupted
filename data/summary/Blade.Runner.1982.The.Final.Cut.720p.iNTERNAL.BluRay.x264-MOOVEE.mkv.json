@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.001890359168241966, 
+  "total_frames_with_faces": 1058, 
+  "avg_frames_with_female_faces": 0.015301785208274299, 
+  "avg_face_screen_fraction": 0.017924220821258642, 
+  "avg_frames_with_faces": 0.14990082176253897, 
+  "fraction_male_face_screentime": 0.70888468809073724, 
+  "f_movie": "raw_videos/Blade.Runner.1982.The.Final.Cut.720p.iNTERNAL.BluRay.x264-MOOVEE.mkv", 
+  "total_frames_with_male_faces": 752, 
+  "fraction_female_face_screentime": 0.1001890359168242, 
+  "total_frames": 7058, 
+  "total_frames_with_female_faces": 108, 
+  "avg_frames_with_male_faces": 0.10654576367242845
+}

@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.013016411997736276, 
+  "total_frames_with_faces": 1767, 
+  "avg_frames_with_female_faces": 0.026337068268453275, 
+  "avg_face_screen_fraction": 0.019623652716459876, 
+  "avg_frames_with_faces": 0.20411227908051288, 
+  "fraction_male_face_screentime": 0.58517260894170908, 
+  "f_movie": "raw_videos/Into.The.Wild.2007.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1057, 
+  "fraction_female_face_screentime": 0.11601584606677985, 
+  "total_frames": 8657, 
+  "total_frames_with_female_faces": 228, 
+  "avg_frames_with_male_faces": 0.12209772438489085
+}

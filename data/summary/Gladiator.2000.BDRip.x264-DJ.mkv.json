@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.007521773555027712, 
+  "total_frames_with_faces": 2526, 
+  "avg_frames_with_female_faces": 0.034946236559139782, 
+  "avg_face_screen_fraction": 0.026834007589244816, 
+  "avg_frames_with_faces": 0.27161290322580645, 
+  "fraction_male_face_screentime": 0.71258907363420432, 
+  "f_movie": "raw_videos/Gladiator.2000.BDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 1819, 
+  "fraction_female_face_screentime": 0.12114014251781473, 
+  "total_frames": 9300, 
+  "total_frames_with_female_faces": 325, 
+  "avg_frames_with_male_faces": 0.19559139784946236
+}

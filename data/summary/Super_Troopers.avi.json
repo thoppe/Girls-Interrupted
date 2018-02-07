@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.035063113604488078, 
+  "total_frames_with_faces": 2852, 
+  "avg_frames_with_female_faces": 0.063229078613693993, 
+  "avg_face_screen_fraction": 0.029357039951686363, 
+  "avg_frames_with_faces": 0.48216398985629755, 
+  "fraction_male_face_screentime": 0.68162692847124828, 
+  "f_movie": "raw_videos/Super_Troopers.avi", 
+  "total_frames_with_male_faces": 2044, 
+  "fraction_female_face_screentime": 0.096072931276297333, 
+  "total_frames": 5915, 
+  "total_frames_with_female_faces": 374, 
+  "avg_frames_with_male_faces": 0.3455621301775148
+}

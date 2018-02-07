@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.012636899747262006, 
+  "total_frames_with_faces": 2374, 
+  "avg_frames_with_female_faces": 0.19662576687116565, 
+  "avg_face_screen_fraction": 0.019430347224363518, 
+  "avg_frames_with_faces": 0.36411042944785277, 
+  "fraction_male_face_screentime": 0.23673125526537489, 
+  "f_movie": "raw_videos/Mamma.Mia.2008.BRRip.HebSubs.XviD.AC3-Uploadil.avi", 
+  "total_frames_with_male_faces": 592, 
+  "fraction_female_face_screentime": 0.52737994945240096, 
+  "total_frames": 6520, 
+  "total_frames_with_female_faces": 1282, 
+  "avg_frames_with_male_faces": 0.090797546012269942
+}

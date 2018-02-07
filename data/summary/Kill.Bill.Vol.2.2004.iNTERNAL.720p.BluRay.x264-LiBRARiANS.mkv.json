@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.02720348204570185, 
+  "total_frames_with_faces": 1838, 
+  "avg_frames_with_female_faces": 0.15861550037622271, 
+  "avg_face_screen_fraction": 0.020392429392636094, 
+  "avg_frames_with_faces": 0.27659894657637324, 
+  "fraction_male_face_screentime": 0.17573449401523394, 
+  "f_movie": "raw_videos/Kill.Bill.Vol.2.2004.iNTERNAL.720p.BluRay.x264-LiBRARiANS.mkv", 
+  "total_frames_with_male_faces": 373, 
+  "fraction_female_face_screentime": 0.54624591947769319, 
+  "total_frames": 6645, 
+  "total_frames_with_female_faces": 1054, 
+  "avg_frames_with_male_faces": 0.05613243039879609
+}

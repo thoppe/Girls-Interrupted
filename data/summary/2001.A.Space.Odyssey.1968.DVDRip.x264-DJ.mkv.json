@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0016339869281045752, 
+  "total_frames_with_faces": 612, 
+  "avg_frames_with_female_faces": 0.0018676316096649936, 
+  "avg_face_screen_fraction": 0.0035388544400827291, 
+  "avg_frames_with_faces": 0.071436909069686, 
+  "fraction_male_face_screentime": 0.49346405228758172, 
+  "f_movie": "raw_videos/2001.A.Space.Odyssey.1968.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 303, 
+  "fraction_female_face_screentime": 0.024509803921568627, 
+  "total_frames": 8567, 
+  "total_frames_with_female_faces": 16, 
+  "avg_frames_with_male_faces": 0.035368273608030819
+}

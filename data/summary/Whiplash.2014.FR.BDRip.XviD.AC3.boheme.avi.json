@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0, 
+  "total_frames_with_faces": 822, 
+  "avg_frames_with_female_faces": 0.0051506165131887001, 
+  "avg_face_screen_fraction": 0.0094939682126906951, 
+  "avg_frames_with_faces": 0.12829717496488216, 
+  "fraction_male_face_screentime": 0.77128953771289532, 
+  "f_movie": "raw_videos/Whiplash.2014.FR.BDRip.XviD.AC3.boheme.avi", 
+  "total_frames_with_male_faces": 634, 
+  "fraction_female_face_screentime": 0.040145985401459854, 
+  "total_frames": 6407, 
+  "total_frames_with_female_faces": 33, 
+  "avg_frames_with_male_faces": 0.098954268768534415
+}

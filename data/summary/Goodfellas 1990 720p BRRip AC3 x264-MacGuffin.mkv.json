@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.043947368421052631, 
+  "total_frames_with_faces": 3800, 
+  "avg_frames_with_female_faces": 0.063008362928170469, 
+  "avg_face_screen_fraction": 0.023821198807075152, 
+  "avg_frames_with_faces": 0.43533050750372321, 
+  "fraction_male_face_screentime": 0.62447368421052629, 
+  "f_movie": "raw_videos/Goodfellas 1990 720p BRRip AC3 x264-MacGuffin.mkv", 
+  "total_frames_with_male_faces": 2540, 
+  "fraction_female_face_screentime": 0.10078947368421053, 
+  "total_frames": 8729, 
+  "total_frames_with_female_faces": 550, 
+  "avg_frames_with_male_faces": 0.29098407606827814
+}

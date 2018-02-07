@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.050217286335103813, 
+  "total_frames_with_faces": 4142, 
+  "avg_frames_with_female_faces": 0.11631279129984463, 
+  "avg_face_screen_fraction": 0.022576198753654245, 
+  "avg_frames_with_faces": 0.42900051786639049, 
+  "fraction_male_face_screentime": 0.53597295992274263, 
+  "f_movie": "raw_videos/Dangal.2016.BRRip.HebSubs.XviD.AC3-Uploadil.avi", 
+  "total_frames_with_male_faces": 2428, 
+  "fraction_female_face_screentime": 0.22090777402221148, 
+  "total_frames": 9655, 
+  "total_frames_with_female_faces": 1123, 
+  "avg_frames_with_male_faces": 0.25147591921284307
+}

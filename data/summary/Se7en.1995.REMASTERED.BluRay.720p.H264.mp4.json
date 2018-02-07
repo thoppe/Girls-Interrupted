@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.01348747591522158, 
+  "total_frames_with_faces": 1038, 
+  "avg_frames_with_female_faces": 0.022810590631364563, 
+  "avg_face_screen_fraction": 0.0073271676101362539, 
+  "avg_frames_with_faces": 0.14093686354378818, 
+  "fraction_male_face_screentime": 0.67533718689788058, 
+  "f_movie": "raw_videos/Se7en.1995.REMASTERED.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 715, 
+  "fraction_female_face_screentime": 0.14836223506743737, 
+  "total_frames": 7365, 
+  "total_frames_with_female_faces": 168, 
+  "avg_frames_with_male_faces": 0.097080787508486088
+}
