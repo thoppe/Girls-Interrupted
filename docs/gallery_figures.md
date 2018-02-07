@@ -1,3 +1,5 @@
+## 88 movies profiled
+
 **The Kid**, _1921_
 
 ![](../figures/The.Kid.1921.DVDRip.x264-DJ.mkv.png)

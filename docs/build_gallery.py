@@ -10,7 +10,7 @@ template = '''
 ![]({f_png})
 '''.strip()+'\n'
 
-S = []
+S = ['''## {} movies profiled\n'''.format(len(df))]
 
 for _,row in df.iterrows():
 
@@ -18,7 +18,7 @@ for _,row in df.iterrows():
     if not os.path.exists(f_png):
         continue
 
-    print f_png
+    #print f_png
 
     s = template.format(
         name=row['name'],
@@ -29,6 +29,3 @@ for _,row in df.iterrows():
 
 with open(f_out, 'w') as FOUT:
     FOUT.write('\n'.join(S))
-
-
-
