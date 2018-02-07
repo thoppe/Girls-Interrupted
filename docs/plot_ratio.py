@@ -4,10 +4,10 @@ import pandas as pd
 import pylab as plt
 import seaborn as sns
 
-F_JSON = glob.glob("data/summary/*.json")
+F_JSON = glob.glob("../data/summary/*.json")
 
 df = pd.DataFrame([json.loads(open(f).read()) for f in F_JSON])
-dfx = pd.read_csv("docs/source_movies.csv").set_index('source')
+dfx = pd.read_csv("source_movies.csv").set_index('source')
 
 df['f_movie'] = df['f_movie'].apply(os.path.basename)
 df = df.set_index('f_movie')
@@ -68,5 +68,5 @@ for x,y,text in zip(df[xkey], df[ykey],df.index):
 
 sns.despine()
 plt.tight_layout()
-plt.savefig("docs/ratio_plot.png")
+plt.savefig("ratio_plot.png")
 plt.show()
