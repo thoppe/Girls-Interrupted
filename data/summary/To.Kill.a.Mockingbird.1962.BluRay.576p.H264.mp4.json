@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.020462633451957295, 
+  "total_frames_with_faces": 4496, 
+  "avg_frames_with_female_faces": 0.044375644994840042, 
+  "avg_face_screen_fraction": 0.026986228643334512, 
+  "avg_frames_with_faces": 0.57997936016511864, 
+  "fraction_male_face_screentime": 0.65658362989323849, 
+  "f_movie": "raw_videos/To.Kill.a.Mockingbird.1962.BluRay.576p.H264.mp4", 
+  "total_frames_with_male_faces": 3044, 
+  "fraction_female_face_screentime": 0.056049822064056939, 
+  "total_frames": 7752, 
+  "total_frames_with_female_faces": 344, 
+  "avg_frames_with_male_faces": 0.39267285861713108
+}

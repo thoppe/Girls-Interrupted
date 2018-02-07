@@ -1,3 +1,7 @@
+**The Kid**, _1921_
+
+![](../figures/The.Kid.1921.DVDRip.x264-DJ.mkv.png)
+
 **Gone with the Wind**, _1939_
 
 ![](../figures/Gone.with.the.Wind.1939.DVDRip.x264-DJ.mkv.png)
@@ -9,6 +13,10 @@
 **Casablanca**, _1942_
 
 ![](../figures/Casablanca.1942.BDRip.x264-DJ.mkv.png)
+
+**Double Indemnity**, _1944_
+
+![](../figures/Double.Indemnity.1944.DVDRip.x264-DJ.mkv.png)
 
 **Its A Wonderful Life**, _1946_
 
@@ -38,6 +46,10 @@
 
 ![](../figures/Psycho.1960.BluRay.720p.H264.mp4.png)
 
+**To Kill a Mockingbird**, _1962_
+
+![](../figures/To.Kill.a.Mockingbird.1962.BluRay.576p.H264.mp4.png)
+
 **Dr Strangelove**, _1964_
 
 ![](../figures/Dr.Strangelove.1964.BDRip.x264-DJ.mkv.png)
@@ -53,6 +65,10 @@
 **Once Upon A Time In The West**, _1968_
 
 ![](../figures/Once.Upon.A.Time.In.The.West.1968.720p.BRRip.x264-x0r.mkv.png)
+
+**The Sting**, _1973_
+
+![](../figures/The.Sting.1973.BluRay.720p.H264.mp4.png)
 
 **One Flew Over the Cuckoos Nest**, _1975_
 
@@ -258,6 +274,10 @@
 
 ![](../figures/Kill.Bill.Vol.2.2004.iNTERNAL.720p.BluRay.x264-LiBRARiANS.mkv.png)
 
+**Eternal Sunshine of the Spotless Mind**, _2004_
+
+![](../figures/Eternal.Sunshine.of.the.Spotless.Mind.2004.DVDRip.x264-DJ.mkv.png)
+
 **The Prestige**, _2006_
 
 ![](../figures/The.Prestige.2006.BluRay.720p.6chAC3.H264.mp4.png)
@@ -281,6 +301,10 @@
 **The Dark Knight**, _2008_
 
 ![](../figures/The.Dark.Knight.2008.IMAX.BluRay.720p.H264.mp4.png)
+
+**Inglourious Basterds**, _2009_
+
+![](../figures/Inglourious.Basterds.2009.BluRay.720p.H264.mp4.png)
 
 **Inception**, _2010_
 

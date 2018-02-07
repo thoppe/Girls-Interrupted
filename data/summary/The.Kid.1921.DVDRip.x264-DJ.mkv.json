@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0078683834048640915, 
+  "total_frames_with_faces": 1398, 
+  "avg_frames_with_female_faces": 0.013218770654329148, 
+  "avg_face_screen_fraction": 0.0093684389087378521, 
+  "avg_frames_with_faces": 0.46199603436880371, 
+  "fraction_male_face_screentime": 0.52861230329041486, 
+  "f_movie": "raw_videos/The.Kid.1921.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 750, 
+  "fraction_female_face_screentime": 0.020743919885550789, 
+  "total_frames": 3026, 
+  "total_frames_with_female_faces": 40, 
+  "avg_frames_with_male_faces": 0.2478519497686715
+}

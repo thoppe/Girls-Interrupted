@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0084548104956268227, 
+  "total_frames_with_faces": 3430, 
+  "avg_frames_with_female_faces": 0.01894818252126837, 
+  "avg_face_screen_fraction": 0.015739842724280497, 
+  "avg_frames_with_faces": 0.44212425882959527, 
+  "fraction_male_face_screentime": 0.81632653061224492, 
+  "f_movie": "raw_videos/The.Sting.1973.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 2829, 
+  "fraction_female_face_screentime": 0.034402332361516033, 
+  "total_frames": 7758, 
+  "total_frames_with_female_faces": 147, 
+  "avg_frames_with_male_faces": 0.36465583913379734
+}
