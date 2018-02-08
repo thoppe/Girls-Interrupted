@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.046852122986822842, 
+  "total_frames_with_faces": 2732, 
+  "avg_frames_with_female_faces": 0.20981881940385738, 
+  "avg_face_screen_fraction": 0.023764825676551492, 
+  "avg_frames_with_faces": 0.53224235339957138, 
+  "fraction_male_face_screentime": 0.3396778916544656, 
+  "f_movie": "raw_videos/Buffy.the.Vampire.Slayer.1992.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1056, 
+  "fraction_female_face_screentime": 0.34736456808199123, 
+  "total_frames": 5133, 
+  "total_frames_with_female_faces": 1077, 
+  "avg_frames_with_male_faces": 0.20572764465225016
+}

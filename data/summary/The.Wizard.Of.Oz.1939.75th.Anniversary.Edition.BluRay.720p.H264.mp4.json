@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.026646706586826347, 
+  "total_frames_with_faces": 3340, 
+  "avg_frames_with_female_faces": 0.1147863107908957, 
+  "avg_face_screen_fraction": 0.017167572117564263, 
+  "avg_frames_with_faces": 0.54691337809071561, 
+  "fraction_male_face_screentime": 0.33712574850299404, 
+  "f_movie": "raw_videos/The.Wizard.Of.Oz.1939.75th.Anniversary.Edition.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1215, 
+  "fraction_female_face_screentime": 0.18323353293413175, 
+  "total_frames": 6107, 
+  "total_frames_with_female_faces": 701, 
+  "avg_frames_with_male_faces": 0.19895202226952677
+}

@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.024555735056542811, 
+  "total_frames_with_faces": 6190, 
+  "avg_frames_with_female_faces": 0.074258797450817399, 
+  "avg_face_screen_fraction": 0.022254721959477548, 
+  "avg_frames_with_faces": 0.57171885102059661, 
+  "fraction_male_face_screentime": 0.60387722132471733, 
+  "f_movie": "raw_videos/Amadeus.1984.BDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 3890, 
+  "fraction_female_face_screentime": 0.10533117932148627, 
+  "total_frames": 10827, 
+  "total_frames_with_female_faces": 804, 
+  "avg_frames_with_male_faces": 0.35928696776577074
+}

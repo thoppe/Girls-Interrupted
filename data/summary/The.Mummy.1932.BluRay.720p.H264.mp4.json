@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.035166479610924055, 
+  "total_frames_with_faces": 2673, 
+  "avg_frames_with_female_faces": 0.10321257689678742, 
+  "avg_face_screen_fraction": 0.022498366357339344, 
+  "avg_frames_with_faces": 0.60902255639097747, 
+  "fraction_male_face_screentime": 0.57014590347923677, 
+  "f_movie": "raw_videos/The.Mummy.1932.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1618, 
+  "fraction_female_face_screentime": 0.13430602319491208, 
+  "total_frames": 4389, 
+  "total_frames_with_female_faces": 453, 
+  "avg_frames_with_male_faces": 0.36864889496468445
+}

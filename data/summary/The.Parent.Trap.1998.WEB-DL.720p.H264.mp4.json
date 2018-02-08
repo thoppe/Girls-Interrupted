@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.047560676636430495, 
+  "total_frames_with_faces": 4079, 
+  "avg_frames_with_female_faces": 0.29649876350383964, 
+  "avg_face_screen_fraction": 0.030827316264473919, 
+  "avg_frames_with_faces": 0.53091240400885076, 
+  "fraction_male_face_screentime": 0.16278499632262811, 
+  "f_movie": "raw_videos/The.Parent.Trap.1998.WEB-DL.720p.H264.mp4", 
+  "total_frames_with_male_faces": 858, 
+  "fraction_female_face_screentime": 0.51090953665114003, 
+  "total_frames": 7683, 
+  "total_frames_with_female_faces": 2278, 
+  "avg_frames_with_male_faces": 0.1116751269035533
+}

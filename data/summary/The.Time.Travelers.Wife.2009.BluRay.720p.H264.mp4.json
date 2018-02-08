@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.040546496253856326, 
+  "total_frames_with_faces": 2269, 
+  "avg_frames_with_female_faces": 0.14077112387202625, 
+  "avg_face_screen_fraction": 0.024124329393102537, 
+  "avg_frames_with_faces": 0.37227235438884332, 
+  "fraction_male_face_screentime": 0.46496253856324371, 
+  "f_movie": "raw_videos/The.Time.Travelers.Wife.2009.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1147, 
+  "fraction_female_face_screentime": 0.3375936535918907, 
+  "total_frames": 6095, 
+  "total_frames_with_female_faces": 858, 
+  "avg_frames_with_male_faces": 0.18818703855619359
+}

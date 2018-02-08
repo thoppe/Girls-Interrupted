@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.020249653259361997, 
+  "total_frames_with_faces": 3605, 
+  "avg_frames_with_female_faces": 0.32016740779492547, 
+  "avg_face_screen_fraction": 0.044298855090868644, 
+  "avg_frames_with_faces": 0.47148835992675908, 
+  "fraction_male_face_screentime": 0.11345353675450763, 
+  "f_movie": "raw_videos/Girl.Interrupted.1999.WEB-DL.720p.H264.mp4", 
+  "total_frames_with_male_faces": 482, 
+  "fraction_female_face_screentime": 0.6588072122052705, 
+  "total_frames": 7646, 
+  "total_frames_with_female_faces": 2448, 
+  "avg_frames_with_male_faces": 0.06303949777661523
+}

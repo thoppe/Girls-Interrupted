@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0086246028143440769, 
+  "total_frames_with_faces": 4406, 
+  "avg_frames_with_female_faces": 0.09038579301898346, 
+  "avg_face_screen_fraction": 0.045806773782822142, 
+  "avg_frames_with_faces": 0.53962033067973059, 
+  "fraction_male_face_screentime": 0.54720835224693598, 
+  "f_movie": "raw_videos/Vanilla.Sky.2001.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 2449, 
+  "fraction_female_face_screentime": 0.15887426236949614, 
+  "total_frames": 8165, 
+  "total_frames_with_female_faces": 738, 
+  "avg_frames_with_male_faces": 0.29993876301285977
+}

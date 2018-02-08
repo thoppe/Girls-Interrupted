@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.036538068993672179, 
+  "total_frames_with_faces": 4899, 
+  "avg_frames_with_female_faces": 0.10471544715447155, 
+  "avg_face_screen_fraction": 0.014398936941695084, 
+  "avg_frames_with_faces": 0.53105691056910564, 
+  "fraction_male_face_screentime": 0.47213717085119411, 
+  "f_movie": "raw_videos/West.Side.Story.1961.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 2492, 
+  "fraction_female_face_screentime": 0.16064502959787713, 
+  "total_frames": 9225, 
+  "total_frames_with_female_faces": 966, 
+  "avg_frames_with_male_faces": 0.27013550135501357
+}

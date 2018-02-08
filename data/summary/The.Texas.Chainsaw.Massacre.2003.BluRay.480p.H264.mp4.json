@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.016949152542372881, 
+  "total_frames_with_faces": 590, 
+  "avg_frames_with_female_faces": 0.053511705685618728, 
+  "avg_face_screen_fraction": 0.012142970439118659, 
+  "avg_frames_with_faces": 0.10385495511353635, 
+  "fraction_male_face_screentime": 0.20508474576271185, 
+  "f_movie": "raw_videos/The.Texas.Chainsaw.Massacre.2003.BluRay.480p.H264.mp4", 
+  "total_frames_with_male_faces": 131, 
+  "fraction_female_face_screentime": 0.49830508474576274, 
+  "total_frames": 5681, 
+  "total_frames_with_female_faces": 304, 
+  "avg_frames_with_male_faces": 0.02305932054215807
+}

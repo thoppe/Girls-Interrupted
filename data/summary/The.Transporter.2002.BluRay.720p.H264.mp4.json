@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.034270047978067167, 
+  "total_frames_with_faces": 1459, 
+  "avg_frames_with_female_faces": 0.057663125948406675, 
+  "avg_face_screen_fraction": 0.029156374392680651, 
+  "avg_frames_with_faces": 0.27674506828528073, 
+  "fraction_male_face_screentime": 0.64496230294722412, 
+  "f_movie": "raw_videos/The.Transporter.2002.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 991, 
+  "fraction_female_face_screentime": 0.17409184372858122, 
+  "total_frames": 5272, 
+  "total_frames_with_female_faces": 304, 
+  "avg_frames_with_male_faces": 0.18797420333839152
+}

@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.00064977257959714096, 
+  "total_frames_with_faces": 1539, 
+  "avg_frames_with_female_faces": 0.0031799476243920687, 
+  "avg_face_screen_fraction": 0.018060707650400919, 
+  "avg_frames_with_faces": 0.2878787878787879, 
+  "fraction_male_face_screentime": 0.90513320337881742, 
+  "f_movie": "raw_videos/The.Men.Who.Stare.at.Goats.2009.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1394, 
+  "fraction_female_face_screentime": 0.010396361273554255, 
+  "total_frames": 5346, 
+  "total_frames_with_female_faces": 17, 
+  "avg_frames_with_male_faces": 0.26075570520014962
+}

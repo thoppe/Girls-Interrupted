@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.066783831282952552, 
+  "total_frames_with_faces": 2845, 
+  "avg_frames_with_female_faces": 0.10940281598964234, 
+  "avg_face_screen_fraction": 0.039993967920726591, 
+  "avg_frames_with_faces": 0.46043049037061012, 
+  "fraction_male_face_screentime": 0.63585237258347982, 
+  "f_movie": "raw_videos/The.Truman.Show.1998.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1999, 
+  "fraction_female_face_screentime": 0.17082601054481547, 
+  "total_frames": 6179, 
+  "total_frames_with_female_faces": 676, 
+  "avg_frames_with_male_faces": 0.32351513189836545
+}
