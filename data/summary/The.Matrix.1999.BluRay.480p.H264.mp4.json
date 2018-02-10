@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0068796068796068794, 
+  "total_frames_with_faces": 2035, 
+  "avg_frames_with_female_faces": 0.034661606578115116, 
+  "avg_face_screen_fraction": 0.028491448693607525, 
+  "avg_frames_with_faces": 0.25743200506008856, 
+  "fraction_male_face_screentime": 0.71990171990171992, 
+  "f_movie": "raw_videos/The.Matrix.1999.BluRay.480p.H264.mp4", 
+  "total_frames_with_male_faces": 1479, 
+  "fraction_female_face_screentime": 0.12776412776412777, 
+  "total_frames": 7905, 
+  "total_frames_with_female_faces": 274, 
+  "avg_frames_with_male_faces": 0.18709677419354839
+}

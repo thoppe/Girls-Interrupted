@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.053804347826086958, 
+  "total_frames_with_faces": 3680, 
+  "avg_frames_with_female_faces": 0.12635749926621662, 
+  "avg_face_screen_fraction": 0.025831707653991585, 
+  "avg_frames_with_faces": 0.54006457293806864, 
+  "fraction_male_face_screentime": 0.50054347826086953, 
+  "f_movie": "raw_videos/La.Vita.e.Bella-Life.Is.Beautiful.1997.BluRay.480p.H264.mp4", 
+  "total_frames_with_male_faces": 2040, 
+  "fraction_female_face_screentime": 0.18016304347826087, 
+  "total_frames": 6814, 
+  "total_frames_with_female_faces": 861, 
+  "avg_frames_with_male_faces": 0.29938362195479895
+}

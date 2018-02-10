@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0060954961056552655, 
+  "total_frames_with_faces": 2953, 
+  "avg_frames_with_female_faces": 0.029612478674140873, 
+  "avg_face_screen_fraction": 0.017978978761018834, 
+  "avg_frames_with_faces": 0.35985864001949791, 
+  "fraction_male_face_screentime": 0.75245513037588896, 
+  "f_movie": "raw_videos/Fight.Club.1999.10th.Ann.Edt.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 2240, 
+  "fraction_female_face_screentime": 0.076193701320690824, 
+  "total_frames": 8206, 
+  "total_frames_with_female_faces": 243, 
+  "avg_frames_with_male_faces": 0.27297099683158665
+}

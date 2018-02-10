@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.032763931671800618, 
+  "total_frames_with_faces": 3571, 
+  "avg_frames_with_female_faces": 0.13590237636480412, 
+  "avg_face_screen_fraction": 0.019092384965485373, 
+  "avg_frames_with_faces": 0.45870263326910726, 
+  "fraction_male_face_screentime": 0.51414169700364043, 
+  "f_movie": "raw_videos/Vertigo.1958.HDTV.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1953, 
+  "fraction_female_face_screentime": 0.26351162139456735, 
+  "total_frames": 7785, 
+  "total_frames_with_female_faces": 1058, 
+  "avg_frames_with_male_faces": 0.25086705202312137
+}

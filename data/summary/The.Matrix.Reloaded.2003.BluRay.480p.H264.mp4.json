@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.030795262267343484, 
+  "total_frames_with_faces": 2955, 
+  "avg_frames_with_female_faces": 0.069000897781197904, 
+  "avg_face_screen_fraction": 0.04446696228989671, 
+  "avg_frames_with_faces": 0.37899191996921894, 
+  "fraction_male_face_screentime": 0.67377326565143825, 
+  "f_movie": "raw_videos/The.Matrix.Reloaded.2003.BluRay.480p.H264.mp4", 
+  "total_frames_with_male_faces": 2082, 
+  "fraction_female_face_screentime": 0.15126903553299492, 
+  "total_frames": 7797, 
+  "total_frames_with_female_faces": 538, 
+  "avg_frames_with_male_faces": 0.26702577914582531
+}

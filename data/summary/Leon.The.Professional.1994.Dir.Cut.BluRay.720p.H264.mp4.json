@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.023287057769816391, 
+  "total_frames_with_faces": 2233, 
+  "avg_frames_with_female_faces": 0.089541008276899925, 
+  "avg_face_screen_fraction": 0.020898368384616936, 
+  "avg_frames_with_faces": 0.28003511412089288, 
+  "fraction_male_face_screentime": 0.50783699059561127, 
+  "f_movie": "raw_videos/Leon.The.Professional.1994.Dir.Cut.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1186, 
+  "fraction_female_face_screentime": 0.29646215853112406, 
+  "total_frames": 7974, 
+  "total_frames_with_female_faces": 714, 
+  "avg_frames_with_male_faces": 0.14873338349636317
+}

@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.022877478393492627, 
+  "total_frames_with_faces": 1967, 
+  "avg_frames_with_female_faces": 0.055291884195538682, 
+  "avg_face_screen_fraction": 0.020310357238182291, 
+  "avg_frames_with_faces": 0.46677740863787376, 
+  "fraction_male_face_screentime": 0.70818505338078297, 
+  "f_movie": "raw_videos/Frankenstein.1931.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1438, 
+  "fraction_female_face_screentime": 0.095577020843924762, 
+  "total_frames": 4214, 
+  "total_frames_with_female_faces": 233, 
+  "avg_frames_with_male_faces": 0.3412434741338396
+}

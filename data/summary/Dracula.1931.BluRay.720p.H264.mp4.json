@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.003599712023038157, 
+  "total_frames_with_faces": 2778, 
+  "avg_frames_with_female_faces": 0.05908683974932856, 
+  "avg_face_screen_fraction": 0.013801732550822152, 
+  "avg_frames_with_faces": 0.62175470008952549, 
+  "fraction_male_face_screentime": 0.60763138948884088, 
+  "f_movie": "raw_videos/Dracula.1931.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1698, 
+  "fraction_female_face_screentime": 0.091432685385169188, 
+  "total_frames": 4468, 
+  "total_frames_with_female_faces": 264, 
+  "avg_frames_with_male_faces": 0.38003581020590871
+}

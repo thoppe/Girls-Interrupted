@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0067398420951280567, 
+  "total_frames_with_faces": 5193, 
+  "avg_frames_with_female_faces": 0.054282812323665504, 
+  "avg_face_screen_fraction": 0.041422871380833802, 
+  "avg_frames_with_faces": 0.58605123575217244, 
+  "fraction_male_face_screentime": 0.7186597342576545, 
+  "f_movie": "raw_videos/The.Departed.2006.BluRay.480p.H264.mp4", 
+  "total_frames_with_male_faces": 3767, 
+  "fraction_female_face_screentime": 0.085884844983631817, 
+  "total_frames": 8861, 
+  "total_frames_with_female_faces": 481, 
+  "avg_frames_with_male_faces": 0.42512131813565063
+}

@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.026455026455026454, 
+  "total_frames_with_faces": 6237, 
+  "avg_frames_with_female_faces": 0.081362253410540777, 
+  "avg_face_screen_fraction": 0.025304878755657539, 
+  "avg_frames_with_faces": 0.61213072921778389, 
+  "fraction_male_face_screentime": 0.64886964886964882, 
+  "f_movie": "raw_videos/Scarface.1983.HDTV.720p.H264.mp4", 
+  "total_frames_with_male_faces": 4212, 
+  "fraction_female_face_screentime": 0.10646143979477313, 
+  "total_frames": 10189, 
+  "total_frames_with_female_faces": 829, 
+  "avg_frames_with_male_faces": 0.41338698596525664
+}
