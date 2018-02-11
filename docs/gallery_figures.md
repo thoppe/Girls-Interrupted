@@ -28,6 +28,10 @@
 
 ![](../figures/It.Happened.One.Night.1934.WEB-DL.576p.H264.mp4.png)
 
+**The 39 Steps**, _1935_
+
+![](../figures/The.39.Steps.1935.720p.BluRay.x264-x0r.mkv.png)
+
 **Gone with the Wind**, _1939_
 
 ![](../figures/Gone.with.the.Wind.1939.DVDRip.x264-DJ.mkv.png)
@@ -36,9 +40,17 @@
 
 ![](../figures/The.Wizard.Of.Oz.1939.75th.Anniversary.Edition.BluRay.720p.H264.mp4.png)
 
+**The Grapes of Wrath**, _1940_
+
+![](../figures/The.Grapes.of.Wrath.1940.DVDRip.x264-DJ.mkv.png)
+
 **The Philadelphia Story**, _1940_
 
 ![](../figures/The.Philadelphia.Story.1940.DVDrip.FS.480p.H264.mp4.png)
+
+**Rebecca**, _1940_
+
+![](../figures/Rebecca.1940.BluRay.720p.H264.mp4.png)
 
 **Citizen Kane**, _1941_
 
@@ -68,6 +80,10 @@
 
 ![](../figures/The.Third.Man.1949.DVDRip.x264-DJ.mkv.png)
 
+**The Treasure of the Sierra Madre**, _1948_
+
+![](../figures/The.Treasure.of.the.Sierra.Madre.1948.DVDRip.x264-DJ.mkv.png)
+
 **Sunset Boulevard**, _1950_
 
 ![](../figures/Sunset.Boulevard.1950.DVDRip.x264-DJ.mkv.png)
@@ -76,9 +92,21 @@
 
 ![](../figures/All.About.Eve.1950.BluRay.720p.H264.mp4.png)
 
+**A Streetcar Named Desire**, _1951_
+
+![](../figures/A.Streetcar.Named.Desire.1951.DVDRip.x264-DJ.mkv.png)
+
+**The Wages Of Fear**, _1953_
+
+![](../figures/The.Wages.Of.Fear.1953.BluRay.720p.H264.mp4.png)
+
 **Rear Window**, _1954_
 
 ![](../figures/Rear.Window.1954.HDTV.720p.H264.mp4.png)
+
+**The Night of the Hunter**, _1955_
+
+![](../figures/The.Night.of.the.Hunter.1955.BDRip.x264-DJ.mkv.png)
 
 **12 Angry Men**, _1957_
 
@@ -87,6 +115,10 @@
 **Witness for the Prosecution**, _1957_
 
 ![](../figures/Witness.for.the.Prosecution.1957.DVDRip.x264-DJ.mkv.png)
+
+**Touch of Evil**, _1958_
+
+![](../figures/Touch.of.Evil.1958.ReEdited.BluRay.720p.H264.mp4.png)
 
 **Vertigo**, _1958_
 
@@ -168,7 +200,7 @@
 
 ![](../figures/01.Raiders.of.the.Lost.Ark.1981.HDTV.720p.H264.mp4.png)
 
-**E T The Extra-Terrestrial**, _1982_
+**ET**, _1982_
 
 ![](../figures/E.T.The.Extra-Terrestrial.1982.20th.Anniversary.HDTV.576p.H264.mp4.png)
 
@@ -303,6 +335,10 @@
 **Titanic**, _1997_
 
 ![](../figures/Titanic.1997.BluRay.720p.H264.mp4.png)
+
+**L A Confidential**, _1997_
+
+![](../figures/L.A.Confidential.1997.DVDRip.x264-DJ.mkv.png)
 
 **American History X**, _1998_
 
