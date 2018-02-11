@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0, 
+  "total_frames_with_faces": 453, 
+  "avg_frames_with_female_faces": 0.038827838827838829, 
+  "avg_face_screen_fraction": 0.0048287544481601507, 
+  "avg_frames_with_faces": 0.082967032967032964, 
+  "fraction_male_face_screentime": 0.16777041942604856, 
+  "f_movie": "raw_videos/Gravity.2013.1080p.BluRay.H264.mp4", 
+  "total_frames_with_male_faces": 76, 
+  "fraction_female_face_screentime": 0.46799116997792495, 
+  "total_frames": 5460, 
+  "total_frames_with_female_faces": 212, 
+  "avg_frames_with_male_faces": 0.01391941391941392
+}

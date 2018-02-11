@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.057095034405802492, 
+  "total_frames_with_faces": 5377, 
+  "avg_frames_with_female_faces": 0.11166954609706298, 
+  "avg_face_screen_fraction": 0.032589663365097506, 
+  "avg_frames_with_faces": 0.84451075859902625, 
+  "fraction_male_face_screentime": 0.47684582480937326, 
+  "f_movie": "raw_videos/The.Philadelphia.Story.1940.DVDrip.FS.480p.H264.mp4", 
+  "total_frames_with_male_faces": 2871, 
+  "fraction_female_face_screentime": 0.075134833550306868, 
+  "total_frames": 6367, 
+  "total_frames_with_female_faces": 711, 
+  "avg_frames_with_male_faces": 0.45091880006282392
+}

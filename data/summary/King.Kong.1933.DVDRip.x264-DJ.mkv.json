@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.064762876083630794, 
+  "total_frames_with_faces": 1961, 
+  "avg_frames_with_female_faces": 0.06320830007980846, 
+  "avg_face_screen_fraction": 0.010789259326819753, 
+  "avg_frames_with_faces": 0.31300877893056667, 
+  "fraction_male_face_screentime": 0.57980622131565529, 
+  "f_movie": "raw_videos/King.Kong.1933.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 1264, 
+  "fraction_female_face_screentime": 0.13717491075981642, 
+  "total_frames": 6265, 
+  "total_frames_with_female_faces": 396, 
+  "avg_frames_with_male_faces": 0.20175578611332801
+}

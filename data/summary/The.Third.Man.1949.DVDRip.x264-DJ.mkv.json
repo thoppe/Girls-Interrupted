@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.030548302872062665, 
+  "total_frames_with_faces": 3830, 
+  "avg_frames_with_female_faces": 0.088589540412044379, 
+  "avg_face_screen_fraction": 0.037816403420437072, 
+  "avg_frames_with_faces": 0.60697305863708395, 
+  "fraction_male_face_screentime": 0.67232375979112269, 
+  "f_movie": "raw_videos/The.Third.Man.1949.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 2692, 
+  "fraction_female_face_screentime": 0.1154046997389034, 
+  "total_frames": 6310, 
+  "total_frames_with_female_faces": 559, 
+  "avg_frames_with_male_faces": 0.4266244057052298
+}

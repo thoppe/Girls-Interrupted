@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.047340573656363127, 
+  "total_frames_with_faces": 3591, 
+  "avg_frames_with_female_faces": 0.093576526566217288, 
+  "avg_face_screen_fraction": 0.022544957279899931, 
+  "avg_frames_with_faces": 0.56954797779540045, 
+  "fraction_male_face_screentime": 0.46087440824282927, 
+  "f_movie": "raw_videos/It.Happened.One.Night.1934.WEB-DL.576p.H264.mp4", 
+  "total_frames_with_male_faces": 1825, 
+  "fraction_female_face_screentime": 0.11695906432748537, 
+  "total_frames": 6305, 
+  "total_frames_with_female_faces": 590, 
+  "avg_frames_with_male_faces": 0.28945281522601113
+}

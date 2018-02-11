@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0038797284190106693, 
+  "total_frames_with_faces": 2062, 
+  "avg_frames_with_female_faces": 0.038508003624282694, 
+  "avg_face_screen_fraction": 0.027540808402198986, 
+  "avg_frames_with_faces": 0.3113862881304742, 
+  "fraction_male_face_screentime": 0.56401551891367607, 
+  "f_movie": "raw_videos/Moonlight.2016.DVDScr.HQ.Hive-CM8.mp4", 
+  "total_frames_with_male_faces": 1171, 
+  "fraction_female_face_screentime": 0.11978661493695442, 
+  "total_frames": 6622, 
+  "total_frames_with_female_faces": 255, 
+  "avg_frames_with_male_faces": 0.17683479311386288
+}

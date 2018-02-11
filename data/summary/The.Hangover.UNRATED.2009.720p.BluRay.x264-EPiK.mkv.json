@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.040010741138560686, 
+  "total_frames_with_faces": 3724, 
+  "avg_frames_with_female_faces": 0.073667953667953673, 
+  "avg_face_screen_fraction": 0.025185978135519416, 
+  "avg_frames_with_faces": 0.57513513513513514, 
+  "fraction_male_face_screentime": 0.74194414607948445, 
+  "f_movie": "raw_videos/The.Hangover.UNRATED.2009.720p.BluRay.x264-EPiK.mkv", 
+  "total_frames_with_male_faces": 2912, 
+  "fraction_female_face_screentime": 0.088077336197636955, 
+  "total_frames": 6475, 
+  "total_frames_with_female_faces": 477, 
+  "avg_frames_with_male_faces": 0.44972972972972974
+}
