@@ -57,6 +57,9 @@ plt.xlabel(r"More males $\leftarrow$ Gender $\rightarrow$ More females",
 plt.ylabel(r"Less faces $\leftarrow$ Scenery $\rightarrow$ More faces",
            fontsize=18)
 
+plt.setp(ax.get_xticklabels(), fontsize=16)
+plt.setp(ax.get_yticklabels(), fontsize=16)
+
 X = np.linspace(0,1,100)
 Z = [.5,]*100
 plt.plot(X,Z,'k--',alpha=0.20,zorder=-3)
@@ -75,22 +78,41 @@ S = plt.scatter(df[xkey], df[ykey],
                 s=marker_size, alpha=0.65, zorder=-1,)
 
 plt.savefig("figures/ratio_plot_years.png")
-
 #S.set_sizes(marker_size/4)
 
+def draw_text(y_offset=0, fontsize=12):
+    T = []
+    for x,y,text in zip(df[xkey], df[ykey],df.index):
 
-T = []
-for x,y,text in zip(df[xkey], df[ykey],df.index):
+        # Clip long titles
+        if len(text) > 15:
+            text = text[:15] + '...'
 
-    # Clip long titles
-    if len(text) > 15:
-        text = text[:15] + '...'
+        t = plt.text(x, y+y_offset, text, zorder=-2, fontsize=fontsize)
+        t.set_bbox(dict(facecolor='white', alpha=0.5, edgecolor='white'))
+        T.append(t)
+    return T
 
-    t = plt.text(x, y+0.015, text, zorder=-2)
-    t.set_bbox(dict(facecolor='white', alpha=0.5, edgecolor='white'))
-    T.append(t)
-
-
-
+T = draw_text(y_offset=0.015, fontsize=10)
+plt.tight_layout()
 plt.savefig("figures/ratio_plot_titles.png")
+for t in T: t.remove()
+
+plt.xlim(0, 0.05)
+T = draw_text(y_offset=0.015, fontsize=16)
+plt.tight_layout()
+plt.savefig("figures/ratio_plot_males.png")
+for t in T: t.remove()
+
+
+plt.ylim(.6, 0.8)
+plt.xlim(.5, 0.8)
+T = draw_text(y_offset=0.005, fontsize=16)
+plt.tight_layout()
+plt.savefig("figures/ratio_plot_females.png")
+#for t in T: t.remove()
+
 plt.show()
+
+
+
