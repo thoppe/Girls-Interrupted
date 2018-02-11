@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.021633315305570579, 
+  "total_frames_with_faces": 3698, 
+  "avg_frames_with_female_faces": 0.022841656987998452, 
+  "avg_face_screen_fraction": 0.02516059017795674, 
+  "avg_frames_with_faces": 0.4772228674667699, 
+  "fraction_male_face_screentime": 0.74012979989183347, 
+  "f_movie": "raw_videos/The.Grapes.of.Wrath.1940.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 2817, 
+  "fraction_female_face_screentime": 0.026230394808004327, 
+  "total_frames": 7749, 
+  "total_frames_with_female_faces": 177, 
+  "avg_frames_with_male_faces": 0.36353077816492452
+}

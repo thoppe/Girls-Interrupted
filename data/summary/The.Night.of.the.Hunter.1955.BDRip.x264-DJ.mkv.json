@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.022993142396127472, 
+  "total_frames_with_faces": 2479, 
+  "avg_frames_with_female_faces": 0.06985885295694122, 
+  "avg_face_screen_fraction": 0.019919825890838638, 
+  "avg_frames_with_faces": 0.44291584777559406, 
+  "fraction_male_face_screentime": 0.44453408632513108, 
+  "f_movie": "raw_videos/The.Night.of.the.Hunter.1955.BDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 1159, 
+  "fraction_female_face_screentime": 0.13473174667204518, 
+  "total_frames": 5597, 
+  "total_frames_with_female_faces": 391, 
+  "avg_frames_with_male_faces": 0.2070752188672503
+}

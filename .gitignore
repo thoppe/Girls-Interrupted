@@ -5,3 +5,4 @@ raw_videos/
 data/frames/
 data/facenet_faces/
 data/facenet_json/
+models/

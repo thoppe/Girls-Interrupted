@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.043583535108958835, 
+  "total_frames_with_faces": 3304, 
+  "avg_frames_with_female_faces": 0.096699478865083954, 
+  "avg_face_screen_fraction": 0.034498346652151124, 
+  "avg_frames_with_faces": 0.63771472688670139, 
+  "fraction_male_face_screentime": 0.52058111380145278, 
+  "f_movie": "raw_videos/The.39.Steps.1935.720p.BluRay.x264-x0r.mkv", 
+  "total_frames_with_male_faces": 1864, 
+  "fraction_female_face_screentime": 0.10805084745762712, 
+  "total_frames": 5181, 
+  "total_frames_with_female_faces": 501, 
+  "avg_frames_with_male_faces": 0.35977610499903495
+}

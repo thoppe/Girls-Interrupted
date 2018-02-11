@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.029112881076627302, 
+  "total_frames_with_faces": 3641, 
+  "avg_frames_with_female_faces": 0.080501434828575746, 
+  "avg_face_screen_fraction": 0.029900767497138707, 
+  "avg_frames_with_faces": 0.54991693097719374, 
+  "fraction_male_face_screentime": 0.68882175226586106, 
+  "f_movie": "raw_videos/Touch.of.Evil.1958.ReEdited.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 2614, 
+  "fraction_female_face_screentime": 0.11727547377094205, 
+  "total_frames": 6621, 
+  "total_frames_with_female_faces": 533, 
+  "avg_frames_with_male_faces": 0.39480441020993806
+}

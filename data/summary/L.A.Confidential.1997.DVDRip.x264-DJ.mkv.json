@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0080875356803044723, 
+  "total_frames_with_faces": 4204, 
+  "avg_frames_with_female_faces": 0.041324311261478973, 
+  "avg_face_screen_fraction": 0.044576326084340222, 
+  "avg_frames_with_faces": 0.50797486708554862, 
+  "fraction_male_face_screentime": 0.80922930542340632, 
+  "f_movie": "raw_videos/L.A.Confidential.1997.DVDRip.x264-DJ.mkv", 
+  "total_frames_with_male_faces": 3436, 
+  "fraction_female_face_screentime": 0.073263558515699337, 
+  "total_frames": 8276, 
+  "total_frames_with_female_faces": 342, 
+  "avg_frames_with_male_faces": 0.41517641372643788
+}
