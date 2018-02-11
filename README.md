@@ -15,7 +15,8 @@
 
 # [All Figures](docs/gallery_figures.md)
 
-![](docs/ratio_plot.png)
+![](docs/figures/ratio_plot_titles.png)
+![](docs/figures/ratio_plot_years.png)
 
 
 
