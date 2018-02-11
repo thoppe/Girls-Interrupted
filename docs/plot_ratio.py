@@ -6,7 +6,7 @@ import seaborn as sns
 #from matplotlib import rc
 #rc('text', usetex=True)
 
-cmap = sns.color_palette("RdBu_r", 8)
+
 marker_size = 150
 line_width = 1.0
 
@@ -23,11 +23,10 @@ df['year'] = dfx['year']
 
 # Clip years to be in scope
 min_year = 1940
-df["year"] = np.clip(df["year"], min_year, 2020)-min_year
-df["color"] = (df.year/10.).astype(int)
+df["clip_year"] = np.clip(df["year"], min_year, 2020)-min_year
+df["color"] = (df.clip_year/10.).astype(int)
+cmap = sns.color_palette("RdBu_r", 8)
 colors = [cmap[x] for x in df["color"]]
-
-
 
 def func(x):
     if type(x)==float: return x
@@ -47,8 +46,27 @@ df[xkey] = (
     df['fraction_mixed_face_screentime']
 )
 ykey = 'avg_frames_with_faces'
+zkey = 'year'
 
 ###########################################################################
+
+f, axes = plt.subplots(2, 1, figsize=(9, 6))#, sharex=True)
+
+df["Year"] = map(lambda x:round(x,-1), df.year)
+df["Year"] = np.clip(df["Year"], 1940, 2010).astype(int)
+
+cmap = sns.color_palette("PRGn", 8)
+
+sns.barplot(data=df,x='Year',y=ykey,ax=axes[0],color=cmap[1])
+axes[0].set_ylabel("Facetime")
+sns.barplot(data=df,x='Year',y=xkey,ax=axes[1],color=cmap[-2])
+axes[1].set_ylabel("Relative female\nscreentime")
+sns.despine()
+plt.tight_layout()
+plt.savefig("figures/barplot_yearsVsFaceAndFemales.png")
+
+###########################################################################
+
 
 fig, ax = plt.subplots(figsize=(9,8))
 

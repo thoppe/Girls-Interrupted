@@ -16,7 +16,7 @@
 # [All Figures](docs/gallery_figures.md)
 
 ![](docs/figures/ratio_plot_titles.png)
-![](docs/figures/ratio_plot_years.png)
+![](docs/figures/barplot_yearsVsFaceAndFemales.png)
 
 
 
