@@ -580,6 +580,10 @@
 
 ![](../figures/The.Prestige.2006.BluRay.720p.6chAC3.H264.mp4.png)
 
+**The Lives of Others**, _2006_
+
+![](../figures/The.Lives.of.Others.2006.720p.BluRay.x264.mkv.png)
+
 **The Departed**, _2006_
 
 ![](../figures/The.Departed.2006.BluRay.480p.H264.mp4.png)

@@ -15,11 +15,16 @@ args = {
     "--force": False,
 }
 
-
-def f_queue():
+def f_movie_queue():
 
     F_MOVIE = glob.glob("raw_videos/*")[::-1]
     random.shuffle(F_MOVIE)
+    return F_MOVIE
+
+
+def f_queue():
+
+    F_MOVIE = f_movie_queue()
 
     for f in F_MOVIE:
         name = os.path.basename(f)
@@ -47,6 +52,9 @@ def func_predict(f):
 def func_analyze(f):
     os.system("python analyze2.py '{}'".format(f))
 
+def func_embed(f):
+    os.system("python calculate_embeddings.py '{}'".format(f))
+
 if __name__ == "__main__":
 
     func = joblib.delayed(func_frames)
@@ -62,3 +70,8 @@ if __name__ == "__main__":
     func = joblib.delayed(func_analyze)
     with joblib.Parallel(-1) as MP:
         MP(func(x) for x in f_queue())
+    
+    func = joblib.delayed(func_embed)
+    with joblib.Parallel(1) as MP:
+        MP(func(x) for x in f_movie_queue())
+    

@@ -33,7 +33,12 @@ def image_iterator():
 
     for f in tqdm(JSON):
         with open(f) as FIN:
-            js = json.loads(FIN.read())
+            try:
+                js = json.loads(FIN.read())
+            except ValueError as Ex:
+                print Ex
+                print f
+                raise(Ex)
 
         for k, face in enumerate(js['faces']):
             if gkey not in face:
@@ -95,8 +100,11 @@ with tf.Graph().as_default():
         age_res, gender_res = sess.run([age, gender], feed_dict=feed_args)
 
         for f, ax, gx, k in zip(f_jsons, age_res, gender_res, ks):
-            data.append({"age": float(ax), "gender": float(gx[1]),
-                         "f_json": f, "k": k})
+            data.append({
+                "age": float(ax),
+                "gender": float(gx[1]),
+                "f_json": f, "k": k
+            })
 
 
 # Save the data to disk

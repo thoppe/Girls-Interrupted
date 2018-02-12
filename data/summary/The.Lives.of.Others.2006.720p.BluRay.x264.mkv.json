@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.039740470397404706, 
+  "total_frames_with_faces": 3699, 
+  "avg_frames_with_female_faces": 0.0666020828287721, 
+  "avg_face_screen_fraction": 0.02162894291326839, 
+  "avg_frames_with_faces": 0.44792928069750543, 
+  "fraction_male_face_screentime": 0.77128953771289532, 
+  "f_movie": "raw_videos/The.Lives.of.Others.2006.720p.BluRay.x264.mkv", 
+  "total_frames_with_male_faces": 3000, 
+  "fraction_female_face_screentime": 0.10894836442281698, 
+  "total_frames": 8258, 
+  "total_frames_with_female_faces": 550, 
+  "avg_frames_with_male_faces": 0.36328408815693874
+}
