@@ -41,8 +41,8 @@ assert(IMAGES)
 
 def process_image(f_img, skip_if_exists=True):
     '''
-    Finds the largest face detected and saves it to disk.
-    Writes an empty file if no face is found.
+    Finds the faces detected and save them it to disk.
+    Writes an empty json file if no face is found.
     '''
 
     f_json = os.path.join(
