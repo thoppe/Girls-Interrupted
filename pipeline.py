@@ -48,15 +48,19 @@ def func_segment(f):
 def func_predict(f):
     os.system("python predict_images2.py '{}'".format(f))
 
-
 def func_analyze(f):
     os.system("python analyze2.py '{}'".format(f))
 
 def func_embed(f):
     os.system("python calculate_embeddings.py '{}'".format(f))
 
+def func_cluster(f):
+    os.system("python cluster_faces.py '{}'".format(f))
+
+    
 if __name__ == "__main__":
 
+    '''
     func = joblib.delayed(func_frames)
     with joblib.Parallel(4, batch_size=1) as MP:
         MP(func(x) for x in f_queue())
@@ -73,5 +77,10 @@ if __name__ == "__main__":
     
     func = joblib.delayed(func_embed)
     with joblib.Parallel(1) as MP:
+        MP(func(x) for x in f_movie_queue())
+    '''
+    
+    func = joblib.delayed(func_cluster)
+    with joblib.Parallel(-1) as MP:
         MP(func(x) for x in f_movie_queue())
     

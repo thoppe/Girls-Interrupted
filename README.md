@@ -17,6 +17,4 @@
 
 ![](docs/figures/ratio_plot_titles.png)
 ![](docs/figures/barplot_yearsVsFaceAndFemales.png)
-
-
-
+![](tSNE/Fargo.1996.REMASTERED.BluRay.720p.H264.mp4.png)
