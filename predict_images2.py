@@ -3,21 +3,19 @@ import glob
 import os
 import sys
 import json
-import joblib
-import pandas as pd
 from tqdm import tqdm
 import tensorflow as tf
 import src.inception_resnet_v1
 
 args = {
-    "--batch_size":256,
-    "--f_movie":sys.argv[1],
+    "--batch_size": 256,
+    "--f_movie": sys.argv[1],
 }
 
 assert(os.path.exists(args["--f_movie"]))
 
 name = os.path.basename(args["--f_movie"])
-image_dir = os.path.join('data',"facenet_json/", name)
+image_dir = os.path.join('data', "facenet_json/", name)
 f_model_path = "./models"
 gkey = "gender_expression"
 
@@ -32,12 +30,12 @@ def load_image(f_img):
 
 def image_iterator():
     block = []
-    
+
     for f in tqdm(JSON):
         with open(f) as FIN:
             js = json.loads(FIN.read())
 
-        for k,face in enumerate(js['faces']):
+        for k, face in enumerate(js['faces']):
             if gkey not in face:
                 img = load_image(face['f_img'])
                 block.append([f, k, img])
@@ -48,27 +46,13 @@ def image_iterator():
     if block:
         yield block
 
-       
-
-'''
-print "Preloading in the segmented images"
-with joblib.Parallel(-1) as MP:
-    func = joblib.delayed(load_image)
-    IMAGES = [(f, img) for f, img in MP(func(x) for x in F_IMAGES)]
-    IMAGES = dict(IMAGES)
-'''
-#print "Loaded {} images".format(len(IMAGES))
-#if not IMAGES:
-#    raise IOError("No files found in {}".format(
-#        os.path.join("image_processed", image_dir)))
-
 data = []
 
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 
 with tf.Graph().as_default():
-    print "Building the tensorflow model"
+    print("Building the tensorflow model")
     sess = tf.Session(config=config)
 
     images_in = tf.placeholder(
@@ -99,35 +83,28 @@ with tf.Graph().as_default():
     )
     sess.run(init_op)
 
-    print "Restoring the saved model"
+    print("Restoring the saved model")
     saver = tf.train.Saver()
     ckpt = tf.train.get_checkpoint_state(f_model_path)
     saver.restore(sess, ckpt.model_checkpoint_path)
 
     for block in image_iterator():
         f_jsons, ks, imgs = zip(*block)
-        
+
         feed_args = {images_in: imgs, train_mode: False}
         age_res, gender_res = sess.run([age, gender], feed_dict=feed_args)
 
-        for f, ax, gx,k in zip(f_jsons, age_res, gender_res, ks):
+        for f, ax, gx, k in zip(f_jsons, age_res, gender_res, ks):
             data.append({"age": float(ax), "gender": float(gx[1]),
-                         "f_json": f, "k":k})
+                         "f_json": f, "k": k})
 
 
 # Save the data to disk
 for row in data:
-    with open(row["f_json"],'r') as FIN:
+    with open(row["f_json"], 'r') as FIN:
         js = json.loads(FIN.read())
         js['faces'][row['k']]['age'] = row['age']
         js['faces'][row['k']]['gender'] = row['gender']
 
-    with open(row["f_json"],'w') as FOUT:
+    with open(row["f_json"], 'w') as FOUT:
         FOUT.write(json.dumps(js, indent=2))
-        
-    
-            
-#df = pd.DataFrame(data)#.sort_values('f_json').set_index("f_json")
-#print df
-#df.to_csv(f_csv_output)
-#print df
