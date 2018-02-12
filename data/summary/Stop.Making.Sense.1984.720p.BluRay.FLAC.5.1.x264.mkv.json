@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.015461071231363888, 
+  "total_frames_with_faces": 1811, 
+  "avg_frames_with_female_faces": 0.017840197380907193, 
+  "avg_face_screen_fraction": 0.011159273727197562, 
+  "avg_frames_with_faces": 0.34370848358322265, 
+  "fraction_male_face_screentime": 0.50303699613473218, 
+  "f_movie": "raw_videos/Stop.Making.Sense.1984.720p.BluRay.FLAC.5.1.x264.mkv", 
+  "total_frames_with_male_faces": 939, 
+  "fraction_female_face_screentime": 0.036443953616786304, 
+  "total_frames": 5269, 
+  "total_frames_with_female_faces": 94, 
+  "avg_frames_with_male_faces": 0.17821218447523249
+}

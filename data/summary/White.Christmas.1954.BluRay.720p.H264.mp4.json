@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.10212765957446808, 
+  "total_frames_with_faces": 5405, 
+  "avg_frames_with_female_faces": 0.19228099403026516, 
+  "avg_face_screen_fraction": 0.013217748766407304, 
+  "avg_frames_with_faces": 0.75038178536720812, 
+  "fraction_male_face_screentime": 0.48011100832562442, 
+  "f_movie": "raw_videos/White.Christmas.1954.BluRay.720p.H264.mp4", 
+  "total_frames_with_male_faces": 3147, 
+  "fraction_female_face_screentime": 0.15411655874190563, 
+  "total_frames": 7203, 
+  "total_frames_with_female_faces": 1385, 
+  "avg_frames_with_male_faces": 0.43690129112869636
+}

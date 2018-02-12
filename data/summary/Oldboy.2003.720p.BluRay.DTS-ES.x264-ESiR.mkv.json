@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.047136340598073999, 
+  "total_frames_with_faces": 1973, 
+  "avg_frames_with_female_faces": 0.051819949986107255, 
+  "avg_face_screen_fraction": 0.026417471239207731, 
+  "avg_frames_with_faces": 0.27410391775493193, 
+  "fraction_male_face_screentime": 0.55448555499239738, 
+  "f_movie": "raw_videos/Oldboy.2003.720p.BluRay.DTS-ES.x264-ESiR.mkv", 
+  "total_frames_with_male_faces": 1187, 
+  "fraction_female_face_screentime": 0.1419158641662443, 
+  "total_frames": 7198, 
+  "total_frames_with_female_faces": 373, 
+  "avg_frames_with_male_faces": 0.16490691858849679
+}

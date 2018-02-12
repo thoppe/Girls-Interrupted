@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.082066869300911852, 
+  "total_frames_with_faces": 4606, 
+  "avg_frames_with_female_faces": 0.55786758383490975, 
+  "avg_face_screen_fraction": 0.053865170261682388, 
+  "avg_frames_with_faces": 0.7920894239036973, 
+  "fraction_male_face_screentime": 0.15002171081198437, 
+  "f_movie": "raw_videos/Mean Girls (2004).mkv", 
+  "total_frames_with_male_faces": 1069, 
+  "fraction_female_face_screentime": 0.6222318714719931, 
+  "total_frames": 5815, 
+  "total_frames_with_female_faces": 3244, 
+  "avg_frames_with_male_faces": 0.18383490971625108
+}

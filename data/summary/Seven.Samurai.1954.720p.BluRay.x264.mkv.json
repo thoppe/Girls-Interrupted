@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0070571630204657732, 
+  "total_frames_with_faces": 5668, 
+  "avg_frames_with_female_faces": 0.0074038306776114601, 
+  "avg_face_screen_fraction": 0.022605621245658351, 
+  "avg_frames_with_faces": 0.45614035087719296, 
+  "fraction_male_face_screentime": 0.81704304869442479, 
+  "f_movie": "raw_videos/Seven.Samurai.1954.720p.BluRay.x264.mkv", 
+  "total_frames_with_male_faces": 4671, 
+  "fraction_female_face_screentime": 0.0091743119266055051, 
+  "total_frames": 12426, 
+  "total_frames_with_female_faces": 92, 
+  "avg_frames_with_male_faces": 0.37590535972959921
+}

@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0062429057888762768, 
+  "total_frames_with_faces": 1762, 
+  "avg_frames_with_female_faces": 0.044326577003220305, 
+  "avg_face_screen_fraction": 0.015133053497520244, 
+  "avg_frames_with_faces": 0.33377533623792383, 
+  "fraction_male_face_screentime": 0.43132803632236094, 
+  "f_movie": "raw_videos/Children.of.Heaven.1997.720p.mkv", 
+  "total_frames_with_male_faces": 771, 
+  "fraction_female_face_screentime": 0.12656072644721908, 
+  "total_frames": 5279, 
+  "total_frames_with_female_faces": 234, 
+  "avg_frames_with_male_faces": 0.14605038833112333
+}

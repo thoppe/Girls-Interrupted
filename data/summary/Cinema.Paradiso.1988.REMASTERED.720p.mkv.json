@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.020533251608948821, 
+  "total_frames_with_faces": 3263, 
+  "avg_frames_with_female_faces": 0.036194833153928956, 
+  "avg_face_screen_fraction": 0.040208162172515605, 
+  "avg_frames_with_faces": 0.43904736275565126, 
+  "fraction_male_face_screentime": 0.61814281336193688, 
+  "f_movie": "raw_videos/Cinema.Paradiso.1988.REMASTERED.720p.mkv", 
+  "total_frames_with_male_faces": 2084, 
+  "fraction_female_face_screentime": 0.061906221268771072, 
+  "total_frames": 7432, 
+  "total_frames_with_female_faces": 269, 
+  "avg_frames_with_male_faces": 0.28040904198062433
+}

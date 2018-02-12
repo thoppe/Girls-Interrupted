@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.010556232237109216, 
+  "total_frames_with_faces": 2463, 
+  "avg_frames_with_female_faces": 0.13158326497128794, 
+  "avg_face_screen_fraction": 0.068148494043672181, 
+  "avg_frames_with_faces": 0.40410172272354389, 
+  "fraction_male_face_screentime": 0.3223710921640276, 
+  "f_movie": "raw_videos/Requiem.For.A.Dream.2000.720p.BluRay.x264.mkv", 
+  "total_frames_with_male_faces": 820, 
+  "fraction_female_face_screentime": 0.31506293138449049, 
+  "total_frames": 6095, 
+  "total_frames_with_female_faces": 802, 
+  "avg_frames_with_male_faces": 0.13453650533223954
+}

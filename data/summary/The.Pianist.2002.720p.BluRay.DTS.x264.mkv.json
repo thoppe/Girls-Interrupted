@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.043406593406593405, 
+  "total_frames_with_faces": 3640, 
+  "avg_frames_with_female_faces": 0.055848379499831784, 
+  "avg_face_screen_fraction": 0.017485480844159847, 
+  "avg_frames_with_faces": 0.40820903891443311, 
+  "fraction_male_face_screentime": 0.65521978021978022, 
+  "f_movie": "raw_videos/The.Pianist.2002.720p.BluRay.DTS.x264.mkv", 
+  "total_frames_with_male_faces": 2543, 
+  "fraction_female_face_screentime": 0.093406593406593408, 
+  "total_frames": 8917, 
+  "total_frames_with_female_faces": 498, 
+  "avg_frames_with_male_faces": 0.28518560053829761
+}

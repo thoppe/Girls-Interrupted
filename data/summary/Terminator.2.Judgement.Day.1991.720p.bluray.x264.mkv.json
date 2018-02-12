@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.038819247877072381, 
+  "total_frames_with_faces": 2473, 
+  "avg_frames_with_female_faces": 0.056986634264884567, 
+  "avg_face_screen_fraction": 0.02429201622738375, 
+  "avg_frames_with_faces": 0.30048602673147023, 
+  "fraction_male_face_screentime": 0.5131419328750505, 
+  "f_movie": "raw_videos/Terminator.2.Judgement.Day.1991.720p.bluray.x264.mkv", 
+  "total_frames_with_male_faces": 1365, 
+  "fraction_female_face_screentime": 0.15082895268904165, 
+  "total_frames": 8230, 
+  "total_frames_with_female_faces": 469, 
+  "avg_frames_with_male_faces": 0.16585662211421628
+}

@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0074827895839568994, 
+  "total_frames_with_faces": 3341, 
+  "avg_frames_with_female_faces": 0.0085830447221803951, 
+  "avg_face_screen_fraction": 0.013067113102945492, 
+  "avg_frames_with_faces": 0.50308688450534556, 
+  "fraction_male_face_screentime": 0.79197844956599817, 
+  "f_movie": "raw_videos/M.1931.720p.BluRay.x264.mkv", 
+  "total_frames_with_male_faces": 2671, 
+  "fraction_female_face_screentime": 0.0095779706674648316, 
+  "total_frames": 6641, 
+  "total_frames_with_female_faces": 57, 
+  "avg_frames_with_male_faces": 0.40219846408673393
+}

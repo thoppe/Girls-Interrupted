@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.011347517730496455, 
+  "total_frames_with_faces": 2115, 
+  "avg_frames_with_female_faces": 0.01518856995752349, 
+  "avg_face_screen_fraction": 0.015381406729852333, 
+  "avg_frames_with_faces": 0.27223580898442529, 
+  "fraction_male_face_screentime": 0.57446808510638303, 
+  "f_movie": "raw_videos/City.of.God.2002.720p.BluRay.DTS.x264.mkv", 
+  "total_frames_with_male_faces": 1239, 
+  "fraction_female_face_screentime": 0.044444444444444446, 
+  "total_frames": 7769, 
+  "total_frames_with_female_faces": 118, 
+  "avg_frames_with_male_faces": 0.15947998455399665
+}

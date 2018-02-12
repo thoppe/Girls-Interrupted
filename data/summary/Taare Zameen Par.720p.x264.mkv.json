@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.07176513229430953, 
+  "total_frames_with_faces": 5518, 
+  "avg_frames_with_female_faces": 0.114619643223293, 
+  "avg_face_screen_fraction": 0.035813120030285826, 
+  "avg_frames_with_faces": 0.56571662907525122, 
+  "fraction_male_face_screentime": 0.52084088437839793, 
+  "f_movie": "raw_videos/Taare Zameen Par.720p.x264.mkv", 
+  "total_frames_with_male_faces": 3270, 
+  "fraction_female_face_screentime": 0.13084450888002899, 
+  "total_frames": 9754, 
+  "total_frames_with_female_faces": 1118, 
+  "avg_frames_with_male_faces": 0.33524707812179616
+}

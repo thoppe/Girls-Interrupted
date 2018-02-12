@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.030136098509397278, 
+  "total_frames_with_faces": 3086, 
+  "avg_frames_with_female_faces": 0.025890501319261214, 
+  "avg_face_screen_fraction": 0.00941592970485906, 
+  "avg_frames_with_faces": 0.25445250659630608, 
+  "fraction_male_face_screentime": 0.73655217109526894, 
+  "f_movie": "raw_videos/The.Godfather.Part.II.1974.720p.BluRay.x264.mkv", 
+  "total_frames_with_male_faces": 2366, 
+  "fraction_female_face_screentime": 0.071613739468567722, 
+  "total_frames": 12128, 
+  "total_frames_with_female_faces": 314, 
+  "avg_frames_with_male_faces": 0.19508575197889183
+}

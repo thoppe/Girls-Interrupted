@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.010344827586206896, 
+  "total_frames_with_faces": 2320, 
+  "avg_frames_with_female_faces": 0.040799673602611178, 
+  "avg_face_screen_fraction": 0.019588503352367385, 
+  "avg_frames_with_faces": 0.31551747586019313, 
+  "fraction_male_face_screentime": 0.72629310344827591, 
+  "f_movie": "raw_videos/Eskiya.1996.1080p.WEBDL.x264.AC3.mkv", 
+  "total_frames_with_male_faces": 1709, 
+  "fraction_female_face_screentime": 0.11896551724137931, 
+  "total_frames": 7353, 
+  "total_frames_with_female_faces": 300, 
+  "avg_frames_with_male_faces": 0.23242214062287503
+}

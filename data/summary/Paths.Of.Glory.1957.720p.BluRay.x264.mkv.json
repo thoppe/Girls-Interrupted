@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.007749712973593571, 
+  "total_frames_with_faces": 3484, 
+  "avg_frames_with_female_faces": 0.012445785404488026, 
+  "avg_face_screen_fraction": 0.03551605422389173, 
+  "avg_frames_with_faces": 0.65698661135206482, 
+  "fraction_male_face_screentime": 0.88404133180252586, 
+  "f_movie": "raw_videos/Paths.Of.Glory.1957.720p.BluRay.x264.mkv", 
+  "total_frames_with_male_faces": 3107, 
+  "fraction_female_face_screentime": 0.011194029850746268, 
+  "total_frames": 5303, 
+  "total_frames_with_female_faces": 66, 
+  "avg_frames_with_male_faces": 0.58589477654158029
+}
