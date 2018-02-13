@@ -28,7 +28,7 @@ def f_queue():
 
     for f in F_MOVIE:
         name = os.path.basename(f)
-        f_png = os.path.join("figures", name + '.png')
+        f_png = os.path.join("figures", "lineplots", name + '.png')
 
         if os.path.exists(f_png) and not args['--force']:
             continue
@@ -55,7 +55,7 @@ def func_embed(f):
     os.system("python calculate_embeddings.py '{}'".format(f))
 
 def func_cluster(f):
-    os.system("python cluster_faces.py '{}'".format(f))
+    os.system("python cluster_faces2.py '{}'".format(f))
 
     
 if __name__ == "__main__":
