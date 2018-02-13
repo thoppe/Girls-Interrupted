@@ -4,6 +4,7 @@ import glob
 import os
 import sys
 import json
+import h5py
 
 args = {
     "--batch_size":2**8,
@@ -17,11 +18,13 @@ os.system('mkdir -p "{--save_dest}"'.format(**args))
 f_save = os.path.join(args["--save_dest"], name+'.h5')
 
 if os.path.exists(f_save):
-    print "Already computed embedding for {}".format(name)
-    exit()
+    with h5py.File(f_save, 'r') as h5:
+        if "embedding" in h5:
+            print "Already computed embedding for {}".format(name)
+            exit()
 #######################################################################
 
-import h5py
+
 from tqdm import tqdm   
 import cv2
 import numpy as np
