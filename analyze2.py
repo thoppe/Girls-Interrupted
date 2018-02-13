@@ -13,7 +13,9 @@ min_screen_fraction = 0.0015
 min_score = 0.90
 
 cmap = [
-    np.array([1, ] * 4) * 0.98,
+    #np.array([1, ] * 4) * 0.98,
+    np.array( [.195, ] * 4) * 0.98,
+    
     np.array([255, 44, 77, 255]) / 255.,
     np.array([0, 191, 187, 255]) / 255.,
     # np.array([0.5,]*4)*0.98,
@@ -124,23 +126,29 @@ X[1, :] = (df.male > 0) * 2
 # X = X[:,~idx]
 
 # fig, ax = plt.subplots(figsize=(10,2))
-fig, ax = plt.subplots(figsize=(10, 1.5))
+fig, ax = plt.subplots(figsize=(8, 1.0))
 
 sns.heatmap(X, cmap=cmap, cbar=False, alpha=0.5,
             linecolor=None,
             linewidths=0,)
-# plt.axis('off')
+
+plt.axis('off')
 ax.xaxis.set_ticks_position('none')
 ax.yaxis.set_ticks_position('none')
-plt.tight_layout()
-plt.yticks([.5, 1.5], [u'♀', u'♂'],
-           fontsize=20,
-           rotation='horizontal')
+#plt.yticks([.5, 1.5], [u'♀', u'♂'],
+#           fontsize=20,
+#           rotation='horizontal')
 plt.xticks([], [])
+plt.tight_layout(w_pad=-2.0, h_pad=-2.5)
+plt.savefig(f_png, pad_inches=0,
+            bbox_inches=0,
+            #bbox_inches='tight',
+            dpi=100)
+print f_png
 
-if not args["--debug"]:
-    plt.savefig(f_png, bbox_inches='tight', dpi=100)
-    print("Completed", f_png)
+os.system('mogrify -trim "{}"'.format(f_png))
 
+#if not args["--debug"]:
+#    print("Completed", f_png)
 # else:
-# plt.show()
+#plt.show()

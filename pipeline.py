@@ -19,12 +19,20 @@ def f_movie_queue():
 
     F_MOVIE = glob.glob("raw_videos/*")[::-1]
     random.shuffle(F_MOVIE)
-    return F_MOVIE
 
+    for f in F_MOVIE:
+        name = os.path.basename(f)
+        f_png = os.path.join("figures/tSNE/images/", name + '.png')
+
+        if os.path.exists(f_png):
+            continue
+        
+        yield f
 
 def f_queue():
 
-    F_MOVIE = f_movie_queue()
+    F_MOVIE = glob.glob("raw_videos/*")[::-1]
+    random.shuffle(F_MOVIE)
 
     for f in F_MOVIE:
         name = os.path.basename(f)
@@ -40,10 +48,8 @@ def func_frames(f):
     print("Starting", f)
     os.system("python create_frames.py '{}'".format(f))
 
-
 def func_segment(f):
     os.system("python facenet_segment.py '{}'".format(f))
-
 
 def func_predict(f):
     os.system("python predict_images2.py '{}'".format(f))
@@ -70,17 +76,16 @@ if __name__ == "__main__":
         MP(func(x) for x in f_queue())
 
     map(func_predict, f_queue())
-
+    '''
     func = joblib.delayed(func_analyze)
     with joblib.Parallel(-1) as MP:
         MP(func(x) for x in f_queue())
-    
+    '''
     func = joblib.delayed(func_embed)
     with joblib.Parallel(1) as MP:
         MP(func(x) for x in f_movie_queue())
-    '''
     
     func = joblib.delayed(func_cluster)
     with joblib.Parallel(-1) as MP:
         MP(func(x) for x in f_movie_queue())
-    
+    '''

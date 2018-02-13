@@ -46,8 +46,8 @@ def calculate_tSNE(f_h5):
         if "tSNE" not in h5:
             print("Calculating tSNE embedding")
 
-            print("Actually, skipping")
-            exit()
+            #print("Actually, skipping")
+            #exit()
 
             X = h5["embedding"][:]
             lr = args["--learning_rate"]
