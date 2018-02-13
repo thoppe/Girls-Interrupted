@@ -27,8 +27,8 @@ args = {
 
 name = os.path.basename(args["--f_movie"])
 
-os.system('mkdir -p figures')
-f_png = os.path.join('figures', name + '.png')
+os.system('mkdir -p figures/lineplots')
+f_png = os.path.join('figures/lineplots', name + '.png')
 
 os.system('mkdir -p data/summary')
 f_summary = os.path.join('data/summary', name + '.json')

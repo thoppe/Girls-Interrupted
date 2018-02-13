@@ -14,7 +14,7 @@ S = ['''## {} movies profiled\n'''.format(len(df))]
 
 for _,row in df.iterrows():
 
-    f_png = os.path.join("..", "figures", row.source+'.png')
+    f_png = os.path.join("..", "figures", "lineplots", row.source+'.png')
     if not os.path.exists(f_png):
         continue
 
