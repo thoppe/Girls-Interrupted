@@ -1,4 +1,4 @@
-# Girl, Interrupted
+# Girls, Interrupted
 
 A computational study on the faces in the movies.
 We examine both the fraction of time a face is detected, and the fraction
@@ -20,9 +20,25 @@ For example, consider Dirty Dancing, which features an even mixture of the two m
 
 Each tick represents one second of the film, a pink mark for females is on top, and a blue mark for males is on the bottom.
 
-# [All Figures](docs/gallery_figures.md)
+## [All line plots for 175 movies](docs/gallery_figures.md)
+
+When we look at the movies over a long duration, we can see several trends.
+Coloring the dots by year (blue earlier, red later), old Hollywood take up the upper left, recent girl comedies take the upper right, romance in the middle, and most movies are lower left. That is, most movies feature less faces, but those that are shown are male.
 
 ![](docs/figures/ratio_plot_titles.png)
+
+There is a significant trend in cinematography in the late 60s-70s to use less faces (the era of the blockbuster), but there isn't as strong as a shift in male to female ratios.
+
 ![](docs/figures/barplot_yearsVsFaceAndFemales.png)
+
+We can take a single movie, create a face embedding for each face, then compute a tSNE plot of the faces. Each dot is a face in a scene and color by the detected gender. Clumps are illustrated with a representative snapshot.
+
+**Fargo**, _1996_
+
 ![](figures/tSNE/images/Fargo.1996.REMASTERED.BluRay.720p.H264.mp4.png)
+
+**The Lord of Rings: The Return of the King**, _2003_
+
 ![](figures/tSNE/images/The.Lord.of.the.Rings.The.Return.of.the.King.2003.BDRip.x264-DJ.mkv.png)
+
+## [All tSNE plots plots for 175 movies](figures/tSNE/images/)
