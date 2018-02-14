@@ -69,13 +69,9 @@
 
 Four zones: Old Hollywood, girl comedies, "romance", and male heavy action or landscapes
 
------ .bg-white .aligncenter
+----- 
+@background(src="docs/figures/ratio_plot_titles.png")
 
-@h2 Male zone (note the axis!), female comedy zone
-
-.aligncenter
-   @img(src="docs/figures/ratio_plot_males.png" width=700px)
-   @img(src="docs/figures/ratio_plot_females.png" width=700px)
 
 ----- .bg-white  .aligncenter
 
