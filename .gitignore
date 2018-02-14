@@ -6,3 +6,4 @@ data/frames/
 data/facenet_faces/
 data/facenet_json/
 models/
+figures/tSNE/points/

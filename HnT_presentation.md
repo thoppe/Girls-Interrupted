@@ -7,7 +7,7 @@
 @footer
  @div .wrap @div .span
   @button(href="https://github.com/thoppe/Girls-Interrupted") .alignleft .ghost
-   ::github:: Project repo
+   ::github:: github.com/thoppe/Girls-Interrupted
   @button(href="https://twitter.com/metasemantic") .ghost .alignright
    ::twitter:: @metasemantic 
 
@@ -59,44 +59,57 @@
 .right @h3 The Godfather
 @img(src="figures/lineplots/The.Godfather.1972.720p.bluray.x264.mkv.png")
 
+----- .bg-white .aligncenter
+
+@h2 All movies, colored by year. 1930's (blue) to 2017 (red)
+
+.aligncenter
+   @img(src="docs/figures/ratio_plot_empty.png" width=700px)
+   @img(src="docs/figures/ratio_plot_years.png" width=700px)
+
+Four zones: Old Hollywood, girl comedies, "romance", and male heavy action or landscapes
 
 ----- .bg-white .aligncenter
 
-.text-landing Welcome to
-.text-data Landmark
+@h2 Male zone (note the axis!), female comedy zone
 
+.aligncenter
+   @img(src="docs/figures/ratio_plot_males.png" width=700px)
+   @img(src="docs/figures/ratio_plot_females.png" width=700px)
 
------ .bg-white
+----- .bg-white  .aligncenter
 
-.wrap
-
- @h3 **Description:**
-
- @h3
-  + Message board on the blockchain
-  + Free to post (except for small miner gas fee)
-  + Messages last forever and can't be removed
-  + Multiple "Landmarks" can be deployed
- 
- <br><br><br>
-
- @h3 **Specs:**
-
- @h3
-  + Github pages as the front-end
-  + Ethereum as the backend
-  + Smart-contract [code](https://github.com/thoppe/Landmark/blob/master/contracts/Landmark.sol) written in Solidity
-  + [Robots avatars](https://robohash.org/) for every address
-
+@h2 Rise of the "blockbuster"
+@figure(src="docs/figures/barplot_yearsVsFaceAndFemales.png" )
 
 ----- .bg-white .aligncenter
+@h1 **Fargo** (1996)
+.aligncenter
+  @img(src="figures/tSNE/points/Fargo.1996.REMASTERED.BluRay.720p.H264.mp4.png" width=700) @img(src="figures/tSNE/images/Fargo.1996.REMASTERED.BluRay.720p.H264.mp4.png" width=700)
 
-@h3 .text-landing Canonical chain
-@h4 [0xD38e005a28fae8D8c4238444BC08E7Da83902310](https://thoppe.github.io/Landmark/?address=0xD38e005a28fae8D8c4238444BC08E7Da83902310)
+tSNE plots using facial detection landmarks
 
-<br><br><br><br>
+----- .bg-white .aligncenter
+@h1 **Inception** (2010)
+.aligncenter
+  @img(src="figures/tSNE/points/Inception.2010.DVDRip.x264-DJ.mkv.png" width=700) @img(src="figures/tSNE/images/Inception.2010.DVDRip.x264-DJ.mkv.png" width=700)
 
-@h3 .text-landing Las Vegas Memorial
-@h4 [0x1B11aC23fbB37B1F943c2b36a566fc77f64BB8a9](https://thoppe.github.io/Landmark/index.html?noMeta=true&address=0x1B11aC23fbB37B1F943c2b36a566fc77f64BB8a9)
+tSNE plots using facial detection landmarks
 
+----- .bg-white .aligncenter
+@h1 **Rebecca** (1940)
+.aligncenter
+  @img(src="figures/tSNE/points/Rebecca.1940.BluRay.720p.H264.mp4.png" width=700) @img(src="figures/tSNE/images/Rebecca.1940.BluRay.720p.H264.mp4.png" width=700)
 
+tSNE plots using facial detection landmarks
+
+----- .bg-white .aligncenter
+@h1 **LotR: The Fellowship of the Rings** (2001)
+.aligncenter
+  @img(src="figures/tSNE/points/The.Lord.of.the.Rings.The.Fellowship.of.the.Ring.2001.BDRip.x264-DJ.mkv.png" width=700) @img(src="figures/tSNE/images/The.Lord.of.the.Rings.The.Fellowship.of.the.Ring.2001.BDRip.x264-DJ.mkv.png" width=700)
+
+tSNE plots using facial detection landmarks
+
+-----
+@background(src="docs/figures/ratio_plot_titles.png")
+HI!
