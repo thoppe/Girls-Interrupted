@@ -112,4 +112,12 @@ tSNE plots using facial detection landmarks
 
 -----
 @background(src="docs/figures/ratio_plot_titles.png")
-HI!
+
+ 
+@footer
+ @div .span .alignright
+  @button(href="https://twitter.com/metasemantic") .ghost 
+   ::twitter:: @metasemantic
+  <br>
+  @button(href="https://github.com/thoppe/Girls-Interrupted") .ghost
+   ::github:: github.com/thoppe/Girls-Interrupted
