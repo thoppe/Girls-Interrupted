@@ -76,7 +76,7 @@ if __name__ == "__main__":
         MP(func(x) for x in f_queue())
 
     map(func_predict, f_queue())
-    '''
+    
     func = joblib.delayed(func_analyze)
     with joblib.Parallel(-1) as MP:
         MP(func(x) for x in f_queue())
@@ -84,7 +84,7 @@ if __name__ == "__main__":
     func = joblib.delayed(func_embed)
     with joblib.Parallel(1) as MP:
         MP(func(x) for x in f_movie_queue())
-    
+    '''
     func = joblib.delayed(func_cluster)
     with joblib.Parallel(-1) as MP:
         MP(func(x) for x in f_movie_queue())

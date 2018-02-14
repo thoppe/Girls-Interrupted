@@ -12,15 +12,16 @@ from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 import sklearn
 import sklearn.cluster
 
-from sklearn.manifold import TSNE
-
 args = {
     "--f_movie": sys.argv[1],
     "--load_dest": "data/embeddings",
     "--learning_rate": 300.0,
-    "--min_samples": 20,
+    "--min_samples": 15,
     "--save_dest": "figures/tSNE",
     "--n_jobs": 1,
+    "--min_screen_fraction":0.0015,
+    "--min_face_score":0.90,
+    "--meanshift_bandwidth":0.425,
 }
 
 name = os.path.basename(args["--f_movie"])
@@ -41,6 +42,9 @@ if os.path.exists(f_png2):
 
 
 def calculate_tSNE(f_h5):
+    
+    from sklearn.manifold import TSNE
+
     with h5py.File(f_h5, 'r+') as h5:
 
         if "tSNE" not in h5:
@@ -59,7 +63,12 @@ def calculate_tSNE(f_h5):
 def apply_gender_calc(f_h5):
 
     with h5py.File(f_h5, 'r+') as h5:
-        if "gender" not in h5:
+        if "face_detection_score" not in h5:
+
+            for key in "gender","screen_fraction","face_detection_score":
+                if key in h5: del h5[key]
+
+            score = []
             gender = []
             fraction = []
 
@@ -73,8 +82,10 @@ def apply_gender_calc(f_h5):
                     js = json.loads(FIN.read())["faces"][j]
                     gender.append(js["gender"])
                     fraction.append(js["screen_fraction"])
+                    score.append(js["score"])
             h5["gender"] = gender
             h5["screen_fraction"] = fraction
+            h5["face_detection_score"] = score
 
 
 calculate_tSNE(f_h5)
@@ -83,12 +94,24 @@ apply_gender_calc(f_h5)
 fig, ax = plt.subplots(1, 1, figsize=(8, 8))
 
 with h5py.File(f_h5, 'r+') as h5:
-    X = h5["embedding"][:]
-    pts = h5["tSNE"][:]
-    face_idx = h5["face_idx"][:]
-    frame_idx = h5["frame_idx"][:]
-    screen_fraction = h5["screen_fraction"][:]
-    gender_exp = h5["gender"][:]
+    screen_fraction = h5["screen_fraction"][...]
+    face_score = h5["face_detection_score"][...]
+
+    # Drop the low screen fraction points or score
+    idx0 = screen_fraction>args["--min_screen_fraction"]
+    idx1 = face_score>args["--min_face_score"]
+    idx = idx0&idx1
+    
+    screen_fraction = screen_fraction[idx]
+    face_score = face_score[idx]
+    
+    X = h5["embedding"][...][idx]
+    pts = h5["tSNE"][...][idx]
+    face_idx = h5["face_idx"][...][idx]
+    frame_idx = h5["frame_idx"][...][idx]
+    gender_exp = h5["gender"][...][idx]
+
+    
 
 from sklearn.preprocessing import StandardScaler
 pts = StandardScaler().fit_transform(pts)
@@ -97,7 +120,8 @@ cmap = sns.diverging_palette(240, 10, n=100)
 gender_exp = np.clip(gender_exp * 100, 0, 100).astype(int)
 colors = [cmap[n] for n in gender_exp]
 
-plt.scatter(pts[:, 0], pts[:, 1], color=colors, lw=.1, edgecolor='k',
+plt.scatter(pts[:, 0], pts[:, 1], color=colors,
+            lw=.1, edgecolor='k',
             alpha=0.90)
 sns.despine(left=True, bottom=True)
 ax.get_xaxis().set_visible(False)
@@ -108,7 +132,8 @@ plt.savefig(f_png1)
 
 #
 
-clf = sklearn.cluster.MeanShift(bandwidth=.45, n_jobs=args["--n_jobs"])
+clf = sklearn.cluster.MeanShift(
+    bandwidth=args["--meanshift_bandwidth"], n_jobs=args["--n_jobs"])
 labels = clf.fit_predict(pts)
 label_counts = collections.Counter(labels)
 print(label_counts)
@@ -118,14 +143,8 @@ for n in range(0, labels.max() + 1):
     idx = labels == n
     centroid_pts = pts[idx].mean(axis=0)
 
-    # Removed old double index
-    # idx2 = np.ones(idx.shape, dtype=True)
+    # Take the center face
     idx3 = X[idx].dot(X[idx].mean(axis=0)).argmax()
-
-    # clf = PCA(n_components=3)
-    # clf.fit(X[idx])
-    # x2 = clf.inverse_transform(clf.transform(X[idx]))
-    # idx3 = ((X[idx]-x2)**2).sum(axis=1).argmin()
 
     i = frame_idx[idx][idx3]
     j = face_idx[idx][idx3]
@@ -133,10 +152,16 @@ for n in range(0, labels.max() + 1):
     f_face = os.path.join("data/facenet_faces/", name,
                           "{:06d}_{:03d}.jpg".format(i, j))
     img = plt.imread(f_face)
+    #print screen_fraction[idx][idx3], f_face
+
+    # Adjust pics on left side
+    dx = -40
+    if centroid_pts[0] < 0:
+        dx += 20
 
     arr = OffsetImage(img, zoom=0.30)
     ab = AnnotationBbox(arr, centroid_pts,
-                        xybox=(-40., 40.),
+                        xybox=(dx, 40.),
                         xycoords='data',
                         boxcoords="offset points",
                         pad=0,
@@ -148,3 +173,4 @@ for n in range(0, labels.max() + 1):
 
 print "Completed", f_png2
 plt.savefig(f_png2)
+#plt.show()
