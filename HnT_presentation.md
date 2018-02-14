@@ -1,7 +1,7 @@
 ---- .aligncenter .bg-black
 @unsplash(J39X2xX_8CQ) .dark
 
-.text-data Girls, Interrupted
+.text-data **Girls, Interrupted**
  @h4 A computational study of gender in the movies.
  
 @footer
@@ -16,7 +16,7 @@
 @unsplash(4SLz_RCk6kQ) .dark
 
 
-@h1 _Q: Is there a gender disparity on the silver screen?_
+@h1 _Q: Is there a gender disparity in Hollywood?_
 @h4 If so, how much? Can we quantifiy it?
 
 <br><br><br>
@@ -27,24 +27,38 @@
 <br><br><br>
 
 @h2 What does it mean to measure gender?
-@h4 We can only measure gender "expression", ie.
-@h4 alignment to trained images of males and females.
+@h4 We can only measure gender "expression",
+@h4 a model trained on **images** of males and females.
 
------ .bg-black .aligncenter .slide-top
-@unsplash(zO4qAyXMYmY) 
-<br><br>
-@h1 Code on the blockchain?
+-------
+@background_video(url="spectrum_quick.mp4")
 
-@footer .alignright
-   @h4 Last week somebody [lost](https://www.cryptocoinsnews.com/ethereum-price-climbs-to-325-despite-150-million-wallet-bug-fiasco/) $150 million over a programming bug. `¯\_(ツ)_/¯`
 
------ .bg-black .aligncenter
+----- .bg-white .aligncenter .slide-top
+@unsplash(ny-lHmsHYHk)
+@h1 175 movies. 1 frame per second.
+@h4 Each face must occupy at least 0.15% of the screen.
 
-@h1 If you can store code, you can store _data._
-<br><br><br>
-+ @h2 It will be _permanent._
-+ @h2 It will be _uncensorable._
-+ @h2 It will be _decentralized._
+----- .bg-white .aligncenter
+
+.left @h3 12 Angry Men
+@img(src="figures/lineplots/12.Angry.Men.1957.DVDRip.x264-DJ.mkv.png")
+
+.right @h3 2001 A Space Odyssey
+@img(src="figures/lineplots/2001.A.Space.Odyssey.1968.DVDRip.x264-DJ.mkv.png")
+
+.left @h3 Clueless
+@img(src="figures/lineplots/Clueless.1995.BluRay.720p.H264.mp4.png")
+
+.right @h3 Fifty Shades of Grey
+@img(src="figures/lineplots/Fifty.Shades.of.Grey.2015.BDRip.x264-DJ.mkv.png")
+
+.left @h3 Girl Interrupted
+@img(src="figures/lineplots/Girl.Interrupted.1999.WEB-DL.720p.H264.mp4.png")
+
+.right @h3 The Godfather
+@img(src="figures/lineplots/The.Godfather.1972.720p.bluray.x264.mkv.png")
+
 
 ----- .bg-white .aligncenter
 
