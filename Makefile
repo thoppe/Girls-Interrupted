@@ -1,8 +1,8 @@
 all:
-	miniprez HnT_presentation.md
+	miniprez index.md
 watch:
-	miniprez HnT_presentation.md --watch 1
+	miniprez index.md --watch 1
 edit:
-	xdg-open HnT_presentation.md
+	xdg-open index.md
 view:
-	xdg-open HnT_presentation.html
+	xdg-open index.html
