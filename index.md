@@ -17,7 +17,7 @@
 
 
 @h1 _Q: Is there a gender disparity in Hollywood?_
-@h4 If so, how much? Can we quantifiy it?
+@h4 If so, how much? Can we quantify it?
 
 <br><br><br>
 
@@ -38,7 +38,7 @@
 @unsplash(ny-lHmsHYHk)
 @h1 175 movies. 1 frame per second.
 @h4 Each face must occupy at least 0.15% of the screen.
-@h4 Gender was recorded only if the classifer has a strong signal.
+@h4 Gender was recorded only if the classifier had a strong signal.
 @h4 If gender was indeterminate, only a face was recorded.
 
 
