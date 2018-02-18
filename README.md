@@ -22,13 +22,13 @@ Each tick represents one second of the film, a pink mark for females is on top, 
 
 ## [All line plots for 175 movies](docs/gallery_figures.md)
 
-For movies that have been scored on the [Bechdel test](https://shannonvturner.com/bechdel/what), there is a strong correlation between movie screen time and passing the test:
-
-![](docs/figures/ratio_plot_bechdel.png)
-
 Coloring the dots by year (blue earlier, red later), old Hollywood takes up the upper left, recent girl comedies take the upper right, romance in the middle, and most movies are lower left. That is, most movies feature less faces, but those that are shown are male.
 
 ![](docs/figures/ratio_plot_titles.png)
+
+For movies that have been scored on the [Bechdel test](https://shannonvturner.com/bechdel/what), there is a strong correlation between movie screen time and passing the test:
+
+![](docs/figures/ratio_plot_bechdel.png)
 
 There is a significant trend in cinematography in the late 60s-70s to use less faces (the era of the blockbuster), but there isn't as strong as a shift in male to female ratios.
 
