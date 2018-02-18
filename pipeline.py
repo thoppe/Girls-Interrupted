@@ -66,7 +66,7 @@ def func_cluster(f):
     
 if __name__ == "__main__":
 
-    '''
+    
     func = joblib.delayed(func_frames)
     with joblib.Parallel(4, batch_size=1) as MP:
         MP(func(x) for x in f_queue())
@@ -84,7 +84,7 @@ if __name__ == "__main__":
     func = joblib.delayed(func_embed)
     with joblib.Parallel(1) as MP:
         MP(func(x) for x in f_movie_queue())
-    '''
+    
     func = joblib.delayed(func_cluster)
     with joblib.Parallel(-1) as MP:
         MP(func(x) for x in f_movie_queue())
