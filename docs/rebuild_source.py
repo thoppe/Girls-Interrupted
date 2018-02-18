@@ -53,14 +53,19 @@ for col1, col2 in replace_cols:
 
 
 # Gather information about the movies from the summary
+data = []
 for f_json in glob.glob("../data/summary/*.json"):
     with open(f_json) as FIN:
         js = json.loads(FIN.read())
+        
     source = os.path.basename(js.pop('f_movie'))
 
-    if (df.source==source).sum() != 1:
+    idx = (df.source==source)
+    if idx.sum() != 1:
         print "Weirdness with movie", f_json
         continue
+
+    print idx.index
 
     continue
     exit()
