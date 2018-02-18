@@ -79,23 +79,26 @@ plt.tight_layout()
 
 plt.savefig("figures/ratio_plot_empty.png")
 
+
+dfx = df.dropna(subset=["BECHDEL_rating"])
+BTcmap = sns.diverging_palette(145, 280, s=85, l=25, n=4)
+SP = []
+for k, color in enumerate(BTcmap):
+    idx = dfx["BECHDEL_rating"]==k
+    SP.append(plt.scatter(dfx[idx][xkey], dfx[idx][ykey],
+                    color=color, lw=line_width, edgecolor='k',
+                    s=marker_size, alpha=0.65, zorder=-1,
+                    label="Bechdel score: {}".format(k)))
+SP.append(plt.legend(loc=0))
+plt.savefig("figures/ratio_plot_bechdel.png")
+for s in SP: s.remove()
+
 S = plt.scatter(df[xkey], df[ykey],
                 color=colors, lw=line_width, edgecolor='k',
                 s=marker_size, alpha=0.65, zorder=-1,)
-plt.show()
-exit()
 
 plt.savefig("figures/ratio_plot_years.png")
-#S.set_sizes(marker_size/4)
-
-
-# Plot the bechdel test numbers
-S.remove()
-print S
-exit()
-
-exit()
-
+plt.show()
 
 def draw_text(y_offset=0, fontsize=12):
     T = []
