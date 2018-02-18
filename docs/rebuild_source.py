@@ -26,19 +26,22 @@ df.ix[idx, "IMDB_ID"] = df.ix[idx, "IMDB_url"].apply(func)
 # Cross-reference data from https://shannonvturner.com/bechdel
 f_shannon = "~/datasets/shannonvturnercom_bechdel_full.csv"
 dfs = pd.read_csv(f_shannon).drop_duplicates(subset="imdb_id").set_index("imdb_id")
-# Replace '\N' null values with true nulls
-for col in dfs.columns:
-    if dfs[col].dtype in [str, object]:
-        dfs[col] = dfs[col].str.replace(r'\N',"")
 
 df["source"] = df.index
 df = df.set_index("IMDB_ID")
 
-df["BECHDEL_rating"] = dfs["bechdel_rating"]
-df["IMDB_rating"] = dfs["imdb_rating"]
-df["RT_rating"] = dfs["tomato_meter"]
-df["RT_USER_rating"] = dfs["tomato_user_meter"]
-df["runtime"] = dfs["runtime"]
+# Only overwrite null values
+replace_cols = [
+    ["BECHDEL_rating","bechdel_rating"],
+    ["IMDB_rating","imdb_rating"],
+    ["RT_rating","tomato_meter"],
+    ["RT_USER_rating","tomato_user_meter"],
+]
+
+for col1, col2 in replace_cols:
+    idx = df.index[df[col1].isnull()]
+    df.ix[idx, col1] = dfs.ix[idx, col2]
+
 
 df.sort_values("year").to_csv("source_movies.csv")
 
