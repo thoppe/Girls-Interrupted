@@ -13,8 +13,6 @@ df = pd.read_csv("source_movies.csv")
 min_year = 1940
 df["clip_year"] = np.clip(df["year"], min_year, 2020)-min_year
 df["color"] = (df.clip_year/10.).astype(int)
-cmap = sns.color_palette("RdBu_r", 8)
-colors = [cmap[x] for x in df["color"]]
 
 def clip_text(x):
     if type(x)==float: return x
@@ -79,31 +77,44 @@ plt.tight_layout()
 
 plt.savefig("figures/ratio_plot_empty.png")
 
-'''
+scatter_kwargs = {
+    "lw":line_width,
+    "zorder":-1,
+    "edgecolor":'k',
+    "s":marker_size,
+    "alpha":0.65,
+}
+
+
 dfx = df.dropna(subset=["BECHDEL_rating"])
 BTcmap = sns.diverging_palette(145, 280, s=85, l=25, n=4)
 SP = []
 for k, color in enumerate(BTcmap):
     idx = dfx["BECHDEL_rating"]==k
     SP.append(plt.scatter(dfx[idx][xkey], dfx[idx][ykey],
-                    color=color, lw=line_width, edgecolor='k',
-                    s=marker_size, alpha=0.65, zorder=-1,
-                    label="Bechdel score: {}".format(k)))
+                          color=color, 
+                          label="Bechdel score: {}".format(k),
+                          **scatter_kwargs))
+    
 SP.append(plt.legend(loc=0))
 plt.savefig("figures/ratio_plot_bechdel.png")
 for s in SP: s.remove()
-'''
 
-S = plt.scatter(df[xkey], df[ykey],
-                color=colors, lw=line_width, edgecolor='k',
-                s=marker_size, alpha=0.65, zorder=-1,)
+
+cmap = sns.color_palette("RdBu_r", 8)
+colors = [cmap[x] for x in df["color"]]
+
+S = plt.scatter(df[xkey].values, df[ykey].values,
+                color=colors, **scatter_kwargs)
+
+
 # Add custom legend
-plt.scatter([],[],color=colors[0],lw=line_width, edgecolor='k',
-            s=marker_size, alpha=0.65, zorder=-1,label="1920-1960")
+plt.scatter([],[],color=cmap[0],label="1920-1950",**scatter_kwargs)
+plt.scatter([],[],color=cmap[4],label="1960-1980",**scatter_kwargs)
+plt.scatter([],[],color=cmap[-1],label="1990-current",**scatter_kwargs)
 plt.legend()
 
 plt.savefig("figures/ratio_plot_years.png")
-plt.show()
 
 def draw_text(y_offset=0, fontsize=12):
     T = []
@@ -121,6 +132,10 @@ def draw_text(y_offset=0, fontsize=12):
 T = draw_text(y_offset=0.015, fontsize=10)
 plt.tight_layout()
 plt.savefig("figures/ratio_plot_titles.png")
+
+plt.show()
+exit()
+
 for t in T: t.remove()
 
 plt.xlim(0, 0.05)
