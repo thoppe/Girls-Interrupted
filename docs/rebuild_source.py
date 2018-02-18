@@ -1,6 +1,8 @@
 import pandas as pd
 import glob, os, json
 
+f_csv_final = "source_movies.csv"
+
 F_MOVIE = glob.glob("../raw_videos/*")
 F_MOVIE = map(os.path.basename, glob.glob("../raw_videos/*"))
 
@@ -65,12 +67,12 @@ for f_json in glob.glob("../data/summary/*.json"):
         print "Weirdness with movie", f_json
         continue
 
-    print idx.index
+    js['IMDB_ID'] = df.index[idx].values[0]
+    data.append(js)
 
-    continue
-    exit()
+data = pd.DataFrame(data).set_index('IMDB_ID')
+for col in data.columns:
+    df[col] = data[col]
 
-
-
-df.sort_values("year").to_csv("source_movies.csv")
+df.sort_values("year").to_csv(f_csv_final)
 
