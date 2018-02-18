@@ -34,8 +34,8 @@ df = df.set_index("IMDB_ID")
 replace_cols = [
     ["BECHDEL_rating","bechdel_rating"],
     ["IMDB_rating","imdb_rating"],
-    ["RT_rating","tomato_meter"],
-    ["RT_USER_rating","tomato_user_meter"],
+    #["RT_rating","tomato_meter"],
+    #["RT_USER_rating","tomato_user_meter"],
 ]
 
 for col1, col2 in replace_cols:
