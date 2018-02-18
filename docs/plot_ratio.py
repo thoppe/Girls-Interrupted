@@ -79,7 +79,7 @@ plt.tight_layout()
 
 plt.savefig("figures/ratio_plot_empty.png")
 
-
+'''
 dfx = df.dropna(subset=["BECHDEL_rating"])
 BTcmap = sns.diverging_palette(145, 280, s=85, l=25, n=4)
 SP = []
@@ -92,10 +92,15 @@ for k, color in enumerate(BTcmap):
 SP.append(plt.legend(loc=0))
 plt.savefig("figures/ratio_plot_bechdel.png")
 for s in SP: s.remove()
+'''
 
 S = plt.scatter(df[xkey], df[ykey],
                 color=colors, lw=line_width, edgecolor='k',
                 s=marker_size, alpha=0.65, zorder=-1,)
+# Add custom legend
+plt.scatter([],[],color=colors[0],lw=line_width, edgecolor='k',
+            s=marker_size, alpha=0.65, zorder=-1,label="1920-1960")
+plt.legend()
 
 plt.savefig("figures/ratio_plot_years.png")
 plt.show()
