@@ -3,23 +3,11 @@ import numpy as np
 import pandas as pd
 import pylab as plt
 import seaborn as sns
-#from matplotlib import rc
-#rc('text', usetex=True)
 
 
 marker_size = 150
 line_width = 1.0
-
-F_JSON = glob.glob("../data/summary/*.json")[:]
-
-df = pd.DataFrame([json.loads(open(f).read()) for f in F_JSON])
-dfx = pd.read_csv("source_movies.csv").set_index('source')
-
-df['f_movie'] = df['f_movie'].apply(os.path.basename)
-df = df.set_index('f_movie')
-df['name'] = dfx['name']
-df['year'] = dfx['year']
-
+df = pd.read_csv("source_movies.csv")
 
 # Clip years to be in scope
 min_year = 1940
@@ -28,12 +16,12 @@ df["color"] = (df.clip_year/10.).astype(int)
 cmap = sns.color_palette("RdBu_r", 8)
 colors = [cmap[x] for x in df["color"]]
 
-def func(x):
+def clip_text(x):
     if type(x)==float: return x
     if len(x)>18: x=x[:15]+'...'
     return x
 
-df['name'] = df['name'].apply(func)
+df['name'] = df['name'].apply(clip_text)
 
 idx = pd.isnull(df.name)
 df.ix[idx, 'name'] = df.index[idx]
@@ -94,9 +82,20 @@ plt.savefig("figures/ratio_plot_empty.png")
 S = plt.scatter(df[xkey], df[ykey],
                 color=colors, lw=line_width, edgecolor='k',
                 s=marker_size, alpha=0.65, zorder=-1,)
+plt.show()
+exit()
 
 plt.savefig("figures/ratio_plot_years.png")
 #S.set_sizes(marker_size/4)
+
+
+# Plot the bechdel test numbers
+S.remove()
+print S
+exit()
+
+exit()
+
 
 def draw_text(y_offset=0, fontsize=12):
     T = []
