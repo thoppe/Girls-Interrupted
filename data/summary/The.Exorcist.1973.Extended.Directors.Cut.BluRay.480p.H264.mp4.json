@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.0094648707681106656, 
+  "total_frames_with_faces": 2747, 
+  "avg_frames_with_female_faces": 0.048096707818930044, 
+  "avg_face_screen_fraction": 0.020489014690991941, 
+  "avg_frames_with_faces": 0.3532664609053498, 
+  "fraction_male_face_screentime": 0.56133964324717878, 
+  "f_movie": "raw_videos/The.Exorcist.1973.Extended.Directors.Cut.BluRay.480p.H264.mp4", 
+  "total_frames_with_male_faces": 1568, 
+  "fraction_female_face_screentime": 0.12668365489625044, 
+  "total_frames": 7776, 
+  "total_frames_with_female_faces": 374, 
+  "avg_frames_with_male_faces": 0.20164609053497942
+}

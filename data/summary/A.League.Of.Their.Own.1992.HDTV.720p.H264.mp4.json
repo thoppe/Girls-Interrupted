@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.058502510368915087, 
+  "total_frames_with_faces": 4581, 
+  "avg_frames_with_female_faces": 0.20156351791530944, 
+  "avg_face_screen_fraction": 0.020685590735845995, 
+  "avg_frames_with_faces": 0.59687296416938107, 
+  "fraction_male_face_screentime": 0.31870770574110457, 
+  "f_movie": "raw_videos/A.League.Of.Their.Own.1992.HDTV.720p.H264.mp4", 
+  "total_frames_with_male_faces": 1728, 
+  "fraction_female_face_screentime": 0.27919668194717312, 
+  "total_frames": 7675, 
+  "total_frames_with_female_faces": 1547, 
+  "avg_frames_with_male_faces": 0.22514657980456027
+}

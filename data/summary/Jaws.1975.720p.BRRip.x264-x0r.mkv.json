@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.026730937773882558, 
+  "total_frames_with_faces": 2282, 
+  "avg_frames_with_female_faces": 0.022323830016137709, 
+  "avg_face_screen_fraction": 0.01524230254218812, 
+  "avg_frames_with_faces": 0.30688542227003768, 
+  "fraction_male_face_screentime": 0.76511831726555657, 
+  "f_movie": "raw_videos/Jaws.1975.720p.BRRip.x264-x0r.mkv", 
+  "total_frames_with_male_faces": 1807, 
+  "fraction_female_face_screentime": 0.046012269938650305, 
+  "total_frames": 7436, 
+  "total_frames_with_female_faces": 166, 
+  "avg_frames_with_male_faces": 0.24300699300699299
+}

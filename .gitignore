@@ -1,8 +1,10 @@
 *.pyc
 *~
 
-raw_videos/
+raw_videos
 data/frames/
 data/facenet_faces/
 data/facenet_json/
+data/embeddings/
+figures/tSNE/points/
 models/

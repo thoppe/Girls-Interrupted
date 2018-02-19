@@ -47,6 +47,8 @@ df = df.set_index("IMDB_ID")
 replace_cols = [
     ["BECHDEL_rating","bechdel_rating"],
     ["IMDB_rating","imdb_rating"],
+    ["year", "year"],
+    ["runtime", "runtime"],
 ]
 
 for col1, col2 in replace_cols:
