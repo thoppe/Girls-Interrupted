@@ -37,7 +37,7 @@ os.system('mkdir -p {}'.format(os.path.join(args["--save_dest"], "points")))
 os.system('mkdir -p {}'.format(os.path.join(args["--save_dest"], "images")))
 
 if os.path.exists(f_png2):
-    print("Already computed, skipping" + f_png2)
+    print("Already computed, skipping " + f_png2)
     exit()
 
 
@@ -116,12 +116,17 @@ with h5py.File(f_h5, 'r+') as h5:
 from sklearn.preprocessing import StandardScaler
 pts = StandardScaler().fit_transform(pts)
 
-cmap = sns.diverging_palette(240, 10, n=100)
+cmap = np.array(sns.diverging_palette(240, 10, n=100))[::-1]
+
 gender_exp = np.clip(gender_exp * 100, 0, 100).astype(int)
 colors = [cmap[n] for n in gender_exp]
 
+lw = np.ones(pts.shape[0],dtype=float)*0.1
+idx = (gender_exp>65) | (gender_exp<35)
+lw[idx] *= 5
+
 plt.scatter(pts[:, 0], pts[:, 1], color=colors,
-            lw=.1, edgecolor='k',
+            lw=lw, edgecolor='k',
             alpha=0.90)
 sns.despine(left=True, bottom=True)
 ax.get_xaxis().set_visible(False)
