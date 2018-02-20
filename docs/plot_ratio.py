@@ -58,7 +58,7 @@ fig, ax = plt.subplots(figsize=(9,8))
 
 plt.xlabel(r"More males $\leftarrow$ Gender $\rightarrow$ More females",
            fontsize=18)
-plt.ylabel(r"Less faces $\leftarrow$ Scenery $\rightarrow$ More faces",
+plt.ylabel(r"Fewer faces $\leftarrow$ Scenery $\rightarrow$ More faces",
            fontsize=18)
 
 plt.setp(ax.get_xticklabels(), fontsize=16)
