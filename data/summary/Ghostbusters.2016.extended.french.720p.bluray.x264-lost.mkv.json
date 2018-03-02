@@ -1,0 +1,14 @@
+{
+  "fraction_mixed_face_screentime": 0.065752231656869151, 
+  "total_frames_with_faces": 4593, 
+  "avg_frames_with_female_faces": 0.36389684813753581, 
+  "avg_face_screen_fraction": 0.017112823871202505, 
+  "avg_frames_with_faces": 0.57219384577052446, 
+  "fraction_male_face_screentime": 0.22142390594382758, 
+  "f_movie": "raw_videos/Ghostbusters.2016.extended.french.720p.bluray.x264-lost.mkv", 
+  "total_frames_with_male_faces": 1319, 
+  "fraction_female_face_screentime": 0.57021554539516661, 
+  "total_frames": 8027, 
+  "total_frames_with_female_faces": 2921, 
+  "avg_frames_with_male_faces": 0.16432041858726798
+}

@@ -21,7 +21,6 @@ factor = 0.709  # scale factor
 skip_if_exists = True
 
 args = {
-    "--n_upsample": 1,
     "--output_width": 160,
     "--f_movie": sys.argv[1],
     "--extension": ".jpg",
